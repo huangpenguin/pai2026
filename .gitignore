@@ -1,0 +1,57 @@
+# Local operating-system metadata and generated caches
+.DS_Store
+._*
+__MACOSX/
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.pytest_cache/
+.ruff_cache/
+.venv/
+.uv-cache/
+
+# Local runtime settings, credentials and results
+.env
+.env.*
+!.env.example
+!.env.sample
+.local/
+application_default_credentials.json
+*.pem
+*.key
+logs/
+state/
+# final_project/ source is intentionally trackable; keep runtime artifacts local.
+/final_project/**/data/
+/final_project/**/datasets/
+/final_project/**/checkpoints/
+/final_project/**/outputs/
+/final_project/**/wandb/
+
+# Japanese course originals: retained on this Mac, absent from Git history.
+/pdfs/
+/homework/
+/pai_code_part1/ntbk_jp/
+/notes_zh_sumed_up/assets/
+/matsuokenn-handson/5_gan/*.ipynb
+/matsuokenn-handson/5_gan/*.pptx
+
+# Original Japanese teaching notebooks (keep code projects and English examples).
+/pai_code_part2_roboops/02_robops_workshop/notebooks/
+/pai_code_part2_roboops/03_systems_devices/notebooks/
+/pai_code_part2_roboops/06_open_source/notebooks/
+/pai_code_part2_roboops/05_ros2_lerobot/optional/course_drive/
+/pai_code_part2_roboops/05_ros2_lerobot/optional/original_archives/
+/pai_code_part2_roboops/05_ros2_lerobot/optional/smolvla_ros2/vla_lecture/notebooks/
+
+# Japanese upstream instructions: preserve locally; Chinese guides remain tracked.
+/pai_code_part2_roboops/02_robops_workshop/README.md
+/pai_code_part2_roboops/02_robops_workshop/PREPARATION.md
+/pai_code_part2_roboops/04_ros2_pubsub/physicalai_pubsub/README.ja.md
+/pai_code_part2_roboops/05_ros2_lerobot/optional/smolvla_ros2/README.md
+/pai_code_part2_roboops/05_ros2_lerobot/optional/smolvla_ros2/vla_lecture/README.md
+/pai_code_part2_roboops/shared/ros2_desktop_environment/docker-ros2-desktop-ai-robot-book-humble/README.md
+/pai_code_part2_roboops/06_open_source/pai-2026-advance-oss-lecture/README.md
+/pai_code_part2_roboops/06_open_source/pai-2026-advance-oss-lecture/CONTRIBUTING.md
+/pai_code_part2_roboops/06_open_source/pai-2026-advance-oss-lecture/participants/README.md
+/pai_code_part2_roboops/06_open_source/pai-2026-advance-oss-lecture/.github/pull_request_template.md

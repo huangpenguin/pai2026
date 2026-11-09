@@ -1,0 +1,118 @@
+{
+  "files": {
+    "第1讲 练习资料.ipynb": {
+      "checks": {
+        "nbformat": true,
+        "cell_fidelity": true,
+        "code_tokens": true,
+        "syntax": true,
+        "no_japanese_in_translated_text": true,
+        "all_passed": true
+      },
+      "cells": 22,
+      "markdown_japanese_chars": 0,
+      "code_japanese_chars": 0,
+      "preserved_output_japanese_chars": 0
+    },
+    "第2讲 练习资料.ipynb": {
+      "checks": {
+        "nbformat": true,
+        "cell_fidelity": true,
+        "code_tokens": true,
+        "syntax": true,
+        "no_japanese_in_translated_text": true,
+        "all_passed": true
+      },
+      "cells": 17,
+      "markdown_japanese_chars": 0,
+      "code_japanese_chars": 0,
+      "preserved_output_japanese_chars": 0
+    },
+    "第3讲 练习资料.ipynb": {
+      "checks": {
+        "nbformat": true,
+        "cell_fidelity": true,
+        "code_tokens": true,
+        "syntax": true,
+        "no_japanese_in_translated_text": true,
+        "all_passed": true
+      },
+      "cells": 47,
+      "markdown_japanese_chars": 0,
+      "code_japanese_chars": 0,
+      "preserved_output_japanese_chars": 18
+    },
+    "第4讲 练习资料.ipynb": {
+      "checks": {
+        "nbformat": true,
+        "cell_fidelity": true,
+        "code_tokens": true,
+        "syntax": true,
+        "no_japanese_in_translated_text": true,
+        "all_passed": true
+      },
+      "cells": 34,
+      "markdown_japanese_chars": 0,
+      "code_japanese_chars": 0,
+      "preserved_output_japanese_chars": 107
+    },
+    "第6讲 练习资料（完整版）.ipynb": {
+      "checks": {
+        "nbformat": true,
+        "cell_fidelity": true,
+        "code_tokens": true,
+        "syntax": true,
+        "no_japanese_in_translated_text": true,
+        "all_passed": true
+      },
+      "cells": 46,
+      "markdown_japanese_chars": 0,
+      "code_japanese_chars": 0,
+      "preserved_output_japanese_chars": 340
+    },
+    "第6讲 练习资料（填空版）.ipynb": {
+      "checks": {
+        "nbformat": true,
+        "cell_fidelity": true,
+        "code_tokens": true,
+        "syntax": true,
+        "no_japanese_in_translated_text": true,
+        "all_passed": true
+      },
+      "cells": 46,
+      "markdown_japanese_chars": 0,
+      "code_japanese_chars": 0,
+      "preserved_output_japanese_chars": 0
+    },
+    "最终课题（基础版）.ipynb": {
+      "checks": {
+        "nbformat": true,
+        "cell_fidelity": true,
+        "code_tokens": true,
+        "syntax": true,
+        "no_japanese_in_translated_text": true,
+        "all_passed": true
+      },
+      "cells": 43,
+      "markdown_japanese_chars": 0,
+      "code_japanese_chars": 0,
+      "preserved_output_japanese_chars": 0
+    },
+    "最终课题（进阶版）.ipynb": {
+      "checks": {
+        "nbformat": true,
+        "cell_fidelity": true,
+        "code_tokens": true,
+        "syntax": true,
+        "no_japanese_in_translated_text": true,
+        "all_passed": true
+      },
+      "cells": 38,
+      "markdown_japanese_chars": 0,
+      "code_japanese_chars": 0,
+      "preserved_output_japanese_chars": 0
+    }
+  },
+  "all_passed": true,
+  "validation_method": "JSON + nbformat-v4 structural fallback (nbformat package unavailable)"
+}

@@ -1,0 +1,4 @@
+name = "Kazuki Shimizu"            # 表示名(必須)
+github = "clearwaterkzk"          # GitHub ユーザー名。ファイル名と一致させる(必須)
+message = "Hello, GitHub!"         # 一言メッセージ。140 文字以内(必須)
+favorite_oss = "PyTorch"        # 好きな OSS(任意)

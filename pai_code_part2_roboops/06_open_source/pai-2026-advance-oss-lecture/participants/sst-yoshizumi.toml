@@ -1,0 +1,4 @@
+name = "yomitaro"            # 表示名(必須)
+github = "sst-yoshizumi"     # GitHub ユーザー名。ファイル名と一致させる(必須)
+message = "Hello, OSS! 3rd challenge."      # 一言メッセージ。140 文字以内(必須)
+favorite_oss = "Python"      # 好きな OSS(任意)

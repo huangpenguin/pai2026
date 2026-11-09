@@ -1,0 +1,1330 @@
+{
+  "retrieved_on": "2026-10-29",
+  "timezone": "Asia/Tokyo",
+  "note": "Source snapshots only; no package installation, notebook execution, service startup, training or submissions performed. No .git databases copied.",
+  "repositories": [
+    {
+      "repo": "matsuolab/physicalai_pubsub",
+      "default_branch": "master",
+      "size_kb": 14,
+      "sha": "746761b81b8fa7ef3c16a9e177e8a2339f210c63",
+      "commit_date": "2025-05-24T08:24:24Z",
+      "license": {
+        "key": "mit",
+        "name": "MIT License",
+        "spdx_id": "MIT",
+        "url": "https://api.github.com/licenses/mit",
+        "node_id": "MDc6TGljZW5zZTEz"
+      },
+      "url": "https://github.com/matsuolab/physicalai_pubsub",
+      "archive_url": "https://codeload.github.com/matsuolab/physicalai_pubsub/tar.gz/746761b81b8fa7ef3c16a9e177e8a2339f210c63",
+      "archive_sha256": "e19af8e5715111e7c2045b62ef99d87929727040e18cf5632d503be410f07f4b",
+      "archive_bytes": 6667,
+      "local_path": "04_ros2_pubsub/physicalai_pubsub"
+    },
+    {
+      "repo": "matsuolab/physicalai_teleop",
+      "default_branch": "master",
+      "size_kb": 6,
+      "sha": "0ef2a00fd6d7bb39377969d10f3d26268e447fd9",
+      "commit_date": "2025-06-09T16:24:21Z",
+      "license": null,
+      "url": "https://github.com/matsuolab/physicalai_teleop",
+      "archive_url": "https://codeload.github.com/matsuolab/physicalai_teleop/tar.gz/0ef2a00fd6d7bb39377969d10f3d26268e447fd9",
+      "archive_sha256": "2d3b0fdb4def1c60e8c81bda92d38f5f409ed1662ea4ad61ed627b10f5ce0c92",
+      "archive_bytes": 5784,
+      "local_path": "05_ros2_lerobot/physicalai_teleop"
+    },
+    {
+      "repo": "matsuolab/pai_training",
+      "default_branch": "master",
+      "size_kb": 290,
+      "sha": "b4d6b5459066a80433475a83567504988875248a",
+      "commit_date": "2025-06-06T18:07:39Z",
+      "license": null,
+      "url": "https://github.com/matsuolab/pai_training",
+      "archive_url": "https://codeload.github.com/matsuolab/pai_training/tar.gz/b4d6b5459066a80433475a83567504988875248a",
+      "archive_sha256": "ccf107fc6a8aa1dba6f6f9f287720e977938e360259a3f8f81a7c52dec6b0c8e",
+      "archive_bytes": 107470,
+      "local_path": "05_ros2_lerobot/pai_training"
+    },
+    {
+      "repo": "matsuolab/pai-2026-advance-oss-lecture",
+      "default_branch": "master",
+      "size_kb": 128,
+      "sha": "15056919ab43a495b240e245ae188835c30dbfba",
+      "commit_date": "2026-10-13T09:15:16Z",
+      "license": {
+        "key": "apache-2.0",
+        "name": "Apache License 2.0",
+        "spdx_id": "Apache-2.0",
+        "url": "https://api.github.com/licenses/apache-2.0",
+        "node_id": "MDc6TGljZW5zZTI="
+      },
+      "url": "https://github.com/matsuolab/pai-2026-advance-oss-lecture",
+      "archive_url": "https://codeload.github.com/matsuolab/pai-2026-advance-oss-lecture/tar.gz/15056919ab43a495b240e245ae188835c30dbfba",
+      "archive_sha256": "7d11c61bc455cdc149827ecfe6518f5e51d8f77adbe89dda65ba15ebdc96ee28",
+      "archive_bytes": 24631,
+      "local_path": "06_open_source/pai-2026-advance-oss-lecture"
+    },
+    {
+      "repo": "AI-Robot-Book-Humble/docker-ros2-desktop-ai-robot-book-humble",
+      "default_branch": "main",
+      "size_kb": 43,
+      "sha": "d107b81622889bfa6454cad3a17b818174f4aa35",
+      "commit_date": "2025-02-09T10:54:36Z",
+      "license": null,
+      "url": "https://github.com/AI-Robot-Book-Humble/docker-ros2-desktop-ai-robot-book-humble",
+      "archive_url": "https://codeload.github.com/AI-Robot-Book-Humble/docker-ros2-desktop-ai-robot-book-humble/tar.gz/d107b81622889bfa6454cad3a17b818174f4aa35",
+      "archive_sha256": "7d4585c0c66a57285b870d238da30f255dd4df1d5db42ad560a43a226ed6fd51",
+      "archive_bytes": 11156,
+      "local_path": "shared/ros2_desktop_environment/docker-ros2-desktop-ai-robot-book-humble"
+    }
+  ],
+  "pinned_submodule_and_upstream_examples": [
+    {
+      "id": "lerobot_pinned",
+      "repo": "huggingface/lerobot",
+      "sha": "768e36660d1408c71118a2760f831c037fbfa17d",
+      "source": "pai_training gitlink",
+      "url": "https://codeload.github.com/huggingface/lerobot/tar.gz/768e36660d1408c71118a2760f831c037fbfa17d",
+      "archive_sha256": "7324c8577df2dfcc6eb7d29e6b590e9f296e40b4dd4280258e66c3280800b145",
+      "archive_bytes": 15503227,
+      "local_path": "05_ros2_lerobot/pai_training/lerobot"
+    },
+    {
+      "id": "training-act.ipynb",
+      "repo": "huggingface/notebooks",
+      "sha": "210a0734db7d1fcd983bf904c711ed5a7285111b",
+      "url": "https://raw.githubusercontent.com/huggingface/notebooks/210a0734db7d1fcd983bf904c711ed5a7285111b/lerobot/training-act.ipynb",
+      "file_sha256": "d5c4090ff68a1af10dadc399e0c5cd651dd77ea82394c7ae1c4504678302e9e9",
+      "bytes": 6793,
+      "local_path": "05_ros2_lerobot/optional/upstream_notebooks/training-act.ipynb"
+    },
+    {
+      "id": "training-smolvla.ipynb",
+      "repo": "huggingface/notebooks",
+      "sha": "210a0734db7d1fcd983bf904c711ed5a7285111b",
+      "url": "https://raw.githubusercontent.com/huggingface/notebooks/210a0734db7d1fcd983bf904c711ed5a7285111b/lerobot/training-smolvla.ipynb",
+      "file_sha256": "12f3dc39394a659b0b8bccae0dc88e87234ca1f6fd990f5565b2da2552342324",
+      "bytes": 6602,
+      "local_path": "05_ros2_lerobot/optional/upstream_notebooks/training-smolvla.ipynb"
+    }
+  ],
+  "course_drive_files": [
+    {
+      "name": "G1+RL.ipynb",
+      "id": "1AKTGY4P_RKG32ZzSPIIJOFPoPyI14xkq",
+      "url": "https://drive.google.com/file/d/1AKTGY4P_RKG32ZzSPIIJOFPoPyI14xkq/view",
+      "modified_time": "2026-10-01T12:26:00.366Z",
+      "sha256": "28eebe5464e1cec30b66c315789ffa7a7587c09fbb1df24755ae33b57cd2b66f",
+      "bytes": 12785,
+      "local_path": "05_ros2_lerobot/optional/course_drive/G1+RL.ipynb"
+    },
+    {
+      "name": "libero-smolvla_inf_only.ipynb",
+      "id": "134FjdLEcZEDx9WuZF9VZjO0SErkbSw0p",
+      "url": "https://drive.google.com/file/d/134FjdLEcZEDx9WuZF9VZjO0SErkbSw0p/view",
+      "modified_time": "2026-09-28T12:45:19.319Z",
+      "sha256": "60e449a015ef850faf46cf101e4462924451152b512e3f7b20d12b2510c3a4b0",
+      "bytes": 1136127,
+      "local_path": "05_ros2_lerobot/optional/course_drive/libero-smolvla_inf_only.ipynb"
+    },
+    {
+      "name": "smolvla_ros2.zip",
+      "id": "1xY63eKX9LYvedDlc3d-NLg4Xfp5dLxkp",
+      "url": "https://drive.google.com/file/d/1xY63eKX9LYvedDlc3d-NLg4Xfp5dLxkp/view",
+      "modified_time": "2026-09-28T14:28:47.487Z",
+      "sha256": "91633df5a4c34e93d36580eae20560076735e2b75e117f4f131f22e59f562f9c",
+      "bytes": 125827,
+      "local_path": "05_ros2_lerobot/optional/original_archives/smolvla_ros2.zip"
+    }
+  ],
+  "original_path_moves": {
+    "1": "02_robops_workshop",
+    ".github": "02_robops_workshop/.github",
+    ".dockerignore": "02_robops_workshop/.dockerignore",
+    "第3回 演習資料student 修正版0918.ipynb": "03_systems_devices/notebooks/第3回 演習資料student 修正版0918.ipynb",
+    "第3回 演習資料solution 修正版0918.ipynb": "03_systems_devices/notebooks/第3回 演習資料solution 修正版0918.ipynb",
+    "第6回 演習資料.ipynb": "06_open_source/notebooks/第6回 演習資料.ipynb"
+  },
+  "missing": [
+    {
+      "name": "5_ros2_2_lerobot_diffusion.ipynb",
+      "source": "13.pdf PDF page57",
+      "status": "Mentioned by name without direct link; absent from linked shared Drive listing and not found by exact Drive/web search."
+    }
+  ],
+  "upstream_notebook_license": {
+    "repo": "huggingface/notebooks",
+    "sha": "210a0734db7d1fcd983bf904c711ed5a7285111b",
+    "url": "https://raw.githubusercontent.com/huggingface/notebooks/210a0734db7d1fcd983bf904c711ed5a7285111b/LICENSE",
+    "sha256": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4",
+    "local_path": "05_ros2_lerobot/optional/upstream_notebooks/LICENSE"
+  },
+  "pdf_entry_catalog": [
+    {
+      "session": 1,
+      "pdf": "8.pdf",
+      "pages": [
+        39
+      ],
+      "kind": "illustrative_repository",
+      "name": "DENSO ROS driver",
+      "url": "https://github.com/DENSORobot/denso_robot_ros",
+      "note": "厂家 ROS 驱动示例，不是课堂 clone 任务。"
+    },
+    {
+      "session": 1,
+      "pdf": "8.pdf",
+      "pages": [
+        58
+      ],
+      "kind": "optional_learning_site",
+      "name": "Robot System Quest",
+      "url": "https://mertcookimg.github.io/robot-system-quest/",
+      "note": "浏览器自学 ROS 教材，不是 PushT 课程仓库。"
+    },
+    {
+      "session": 1,
+      "pdf": "8.pdf",
+      "pages": [
+        51
+      ],
+      "kind": "demo_media",
+      "name": "远程操作演示1",
+      "url": "http://drive.google.com/file/d/1EFu-lvPVD063kO4EO5BJALFTTxWmND0v/view",
+      "note": "链接矩形落在演示图，不是源码入口；未请求下载。"
+    },
+    {
+      "session": 1,
+      "pdf": "8.pdf",
+      "pages": [
+        51
+      ],
+      "kind": "demo_media",
+      "name": "远程操作演示2",
+      "url": "http://drive.google.com/file/d/1ox2X1vbRDu5sK_ATuDCOdJsrnYTZIHxZ/view",
+      "note": "链接矩形落在演示图，不是源码入口；未请求下载。"
+    },
+    {
+      "session": 2,
+      "pdf": "10.pdf",
+      "pages": [
+        2,
+        52,
+        60,
+        93,
+        104
+      ],
+      "kind": "course_material_url_absent",
+      "name": "PushTで学ぶRoboOps入門",
+      "url": null,
+      "note": "课件明确属于第2回；已对照本地项目的notebook、Docker/Compose、uv.lock与数据验证流程，原1/已归档到02_robops_workshop。"
+    },
+    {
+      "session": 3,
+      "pdf": "10.pdf",
+      "pages": [
+        4,
+        87,
+        88,
+        89,
+        90,
+        91,
+        92,
+        93
+      ],
+      "kind": "course_notebook_url_absent",
+      "name": "数据内嵌 CPU Colab Notebook 和答案版",
+      "url": null,
+      "note": "24幅depth及对应RGB/时间戳，PNG压缩级别1/6/9、共享链路模型；全文及注释没有文件名或直接URL。"
+    },
+    {
+      "session": 3,
+      "pdf": "10.pdf",
+      "pages": [
+        25,
+        61,
+        98
+      ],
+      "kind": "technical_reference",
+      "name": "AiroPi",
+      "url": "https://github.com/airoa-org/airopi-share",
+      "note": "参考实现或架构案例，不是课件指定下载执行的课程项目。"
+    },
+    {
+      "session": 3,
+      "pdf": "10.pdf",
+      "pages": [
+        7,
+        79,
+        98
+      ],
+      "kind": "technical_reference",
+      "name": "yubi-core",
+      "url": "https://github.com/airoa-org/yubi-core",
+      "note": "参考实现或架构案例，不是课件指定下载执行的课程项目。"
+    },
+    {
+      "session": 3,
+      "pdf": "10.pdf",
+      "pages": [
+        105
+      ],
+      "kind": "technical_reference",
+      "name": "RVL/PNG codec reference",
+      "url": "https://github.com/ros-perception/image_transport_plugins/blob/noetic-devel/compressed_depth_image_transport/src/codec.cpp",
+      "note": "参考实现或架构案例，不是课件指定下载执行的课程项目。"
+    },
+    {
+      "session": 3,
+      "pdf": "10.pdf",
+      "pages": [
+        101
+      ],
+      "kind": "technical_reference",
+      "name": "Latency Numbers Every Programmer Should Know",
+      "url": "https://gist.github.com/jboner/2841832",
+      "note": "参考实现或架构案例，不是课件指定下载执行的课程项目。"
+    },
+    {
+      "session": 4,
+      "pdf": "11.pdf",
+      "pages": [
+        38,
+        44
+      ],
+      "kind": "course_repository",
+      "name": "physicalai_pubsub",
+      "url": "https://github.com/matsuolab/physicalai_pubsub.git",
+      "note": "2026主版本；clone在~/pai_ws/src；第44页fork/PR扩展。"
+    },
+    {
+      "session": 4,
+      "pdf": "11.pdf",
+      "pages": [
+        38
+      ],
+      "kind": "course_setup_document",
+      "name": "physicalai_pubsub README.ja.md",
+      "url": "https://github.com/matsuolab/physicalai_pubsub/blob/master/README.ja.md",
+      "note": "README.md显示文字的实际注释URL。"
+    },
+    {
+      "session": 4,
+      "pdf": "12.pdf",
+      "pages": [
+        37,
+        43
+      ],
+      "kind": "course_repository_old_version",
+      "name": "physicalai_pubsub",
+      "url": "https://github.com/matsuolab/physicalai_pubsub.git",
+      "note": "2025旧版同一仓库，不能据此获得历史commit；clone路径为~/pai_ws，2026已改src。"
+    },
+    {
+      "session": 4,
+      "pdf": "11.pdf",
+      "pages": [
+        2
+      ],
+      "kind": "course_runtime_image",
+      "name": "ROS2 desktop image",
+      "url": "docker://airobotbook/ros2-desktop-ai-robot-book-humble:latest",
+      "note": "环境镜像引用，不是源码仓库URL；不拉镜像。"
+    },
+    {
+      "session": 5,
+      "pdf": "13.pdf",
+      "pages": [
+        6,
+        32,
+        43,
+        46
+      ],
+      "kind": "course_repository",
+      "name": "pai_training",
+      "url": "https://github.com/matsuolab/pai_training",
+      "note": "课件明确git clone --recursive，LeRobot为git submodule；包含转换、训练等任务。"
+    },
+    {
+      "session": 5,
+      "pdf": "13.pdf",
+      "pages": [
+        6,
+        37
+      ],
+      "kind": "course_repository",
+      "name": "physicalai_teleop",
+      "url": "https://github.com/matsuolab/physicalai_teleop.git",
+      "note": "课堂远程操作ROS2包。"
+    },
+    {
+      "session": 5,
+      "pdf": "13.pdf",
+      "pages": [
+        57
+      ],
+      "kind": "instructor_shared_materials",
+      "name": "讲师共享Drive",
+      "url": "https://drive.google.com/drive/folders/1_9v5MWkXld_YF_KHxnAGAyYu29pocRAE?usp=sharing",
+      "note": "已通过Google Drive工具读取共享目录与子目录，下载G1+RL.ipynb、libero-smolvla_inf_only.ipynb和smolvla_ros2.zip；详情见course_drive_files。"
+    },
+    {
+      "session": 5,
+      "pdf": "13.pdf",
+      "pages": [
+        57
+      ],
+      "kind": "course_optional_notebook_url_absent",
+      "name": "5_ros2_2_lerobot_diffusion.ipynb",
+      "url": null,
+      "note": "表格明确“讲座演习Notebook”、Optional PushT；文件名没有单独注释链接，不能拿官方diffusion_policy仓库当同一文件。"
+    },
+    {
+      "session": 5,
+      "pdf": "13.pdf",
+      "pages": [
+        57
+      ],
+      "kind": "upstream_example_notebook",
+      "name": "training-act.ipynb",
+      "url": "https://github.com/huggingface/notebooks/blob/main/lerobot/training-act.ipynb",
+      "note": "Hugging Face官方示例，不是讲师原版Notebook；ACT对应本次方法，SmolVLA标Optional。"
+    },
+    {
+      "session": 5,
+      "pdf": "13.pdf",
+      "pages": [
+        57
+      ],
+      "kind": "upstream_example_notebook",
+      "name": "training-smolvla.ipynb",
+      "url": "https://github.com/huggingface/notebooks/blob/main/lerobot/training-smolvla.ipynb",
+      "note": "Hugging Face官方示例，不是讲师原版Notebook；ACT对应本次方法，SmolVLA标Optional。"
+    },
+    {
+      "session": 5,
+      "pdf": "13.pdf",
+      "pages": [
+        6
+      ],
+      "kind": "course_environment_source",
+      "name": "ROS演习环境",
+      "url": "https://github.com/AI-Robot-Book-Humble/docker-ros2-desktop-ai-robot-book-humble",
+      "note": "课程环境源码参考，勿与课程练习项目混同。"
+    },
+    {
+      "session": 5,
+      "pdf": "13.pdf",
+      "pages": [
+        6
+      ],
+      "kind": "course_environment_source",
+      "name": "上游VNC环境",
+      "url": "https://github.com/Tiryoh/docker-ros2-desktop-vnc",
+      "note": "课程环境源码参考，勿与课程练习项目混同。"
+    },
+    {
+      "session": 5,
+      "pdf": "13.pdf",
+      "pages": [
+        6,
+        31,
+        32
+      ],
+      "kind": "course_dependency",
+      "name": "LeRobot",
+      "url": "https://github.com/huggingface/lerobot",
+      "note": "课堂实际依赖，由pai_training子模块版本确定，而非任意最新main。"
+    },
+    {
+      "session": 5,
+      "pdf": "13.pdf",
+      "pages": [
+        57
+      ],
+      "kind": "optional_framework",
+      "name": "Diffusion Policy",
+      "url": "https://github.com/real-stanford/diffusion_policy",
+      "note": "扩展框架入口；不是本次ROS2主线课程仓库，PDF对π0.5及IsaacLab明确标“Notebookなし”。"
+    },
+    {
+      "session": 5,
+      "pdf": "13.pdf",
+      "pages": [
+        57
+      ],
+      "kind": "optional_framework",
+      "name": "OpenPI",
+      "url": "https://github.com/Physical-Intelligence/openpi",
+      "note": "扩展框架入口；不是本次ROS2主线课程仓库，PDF对π0.5及IsaacLab明确标“Notebookなし”。"
+    },
+    {
+      "session": 5,
+      "pdf": "13.pdf",
+      "pages": [
+        57
+      ],
+      "kind": "optional_framework",
+      "name": "Isaac Lab",
+      "url": "https://github.com/isaac-sim/IsaacLab",
+      "note": "扩展框架入口；不是本次ROS2主线课程仓库，PDF对π0.5及IsaacLab明确标“Notebookなし”。"
+    },
+    {
+      "session": 5,
+      "pdf": "13.pdf",
+      "pages": [
+        57
+      ],
+      "kind": "optional_framework",
+      "name": "Unitree RL Lab",
+      "url": "https://github.com/unitreerobotics/unitree_rl_lab",
+      "note": "扩展框架入口；不是本次ROS2主线课程仓库，PDF对π0.5及IsaacLab明确标“Notebookなし”。"
+    },
+    {
+      "session": 5,
+      "pdf": "13.pdf",
+      "pages": [
+        57
+      ],
+      "kind": "optional_framework",
+      "name": "mjlab",
+      "url": "https://github.com/mujocolab/mjlab",
+      "note": "扩展框架入口；不是本次ROS2主线课程仓库，PDF对π0.5及IsaacLab明确标“Notebookなし”。"
+    },
+    {
+      "session": 5,
+      "pdf": "13.pdf",
+      "pages": [
+        18
+      ],
+      "kind": "illustrative_repository",
+      "name": "CRANE+ ROS wrapper",
+      "url": "https://github.com/rt-net/crane_plus",
+      "note": "硬件ROS接口示例。"
+    },
+    {
+      "session": 5,
+      "pdf": "13.pdf",
+      "pages": [
+        18
+      ],
+      "kind": "illustrative_repository",
+      "name": "RealSense ROS wrapper",
+      "url": "https://github.com/IntelRealSense/realsense-ros",
+      "note": "硬件ROS接口示例。"
+    },
+    {
+      "session": 6,
+      "pdf": "14.pdf",
+      "pages": [
+        48
+      ],
+      "kind": "course_repository",
+      "name": "pai-2026-advance-oss-lecture",
+      "url": "https://github.com/matsuolab/pai-2026-advance-oss-lecture",
+      "note": "明确“本次讲座仓库”，读README/contribute.md并体验PR。"
+    },
+    {
+      "session": 6,
+      "pdf": "14.pdf",
+      "pages": [
+        17,
+        20
+      ],
+      "kind": "course_notebook_url_absent",
+      "name": "Dora Google Colab",
+      "url": null,
+      "note": "PDF只提及Dora hands-on而未给直接Colab链接；本地已有第6回原notebook，已原样归档到06_open_source/notebooks，另收集贡献练习仓库。"
+    },
+    {
+      "session": 6,
+      "pdf": "14.pdf",
+      "pages": [
+        24,
+        37
+      ],
+      "kind": "course_reading_pr",
+      "name": "LeRobot PR #987",
+      "url": "https://github.com/huggingface/lerobot/pull/987",
+      "note": "课堂阅读贡献案例；第37页特别要求读第三个PR的往来。"
+    },
+    {
+      "session": 6,
+      "pdf": "14.pdf",
+      "pages": [
+        24,
+        37
+      ],
+      "kind": "course_reading_pr",
+      "name": "LeRobot PR #3410",
+      "url": "https://github.com/huggingface/lerobot/pull/3410",
+      "note": "课堂阅读贡献案例；第37页特别要求读第三个PR的往来。"
+    },
+    {
+      "session": 6,
+      "pdf": "14.pdf",
+      "pages": [
+        24,
+        37
+      ],
+      "kind": "course_reading_pr",
+      "name": "LeRobot PR #3656",
+      "url": "https://github.com/huggingface/lerobot/pull/3656",
+      "note": "课堂阅读贡献案例；第37页特别要求读第三个PR的往来。"
+    },
+    {
+      "session": 6,
+      "pdf": "14.pdf",
+      "pages": [
+        15,
+        16,
+        17,
+        51
+      ],
+      "kind": "framework_or_case_reference",
+      "name": "Dora",
+      "url": "https://github.com/dora-rs/dora",
+      "note": "框架、硬件系统或案例；Dora用于讲解及Colab，课件未要求克隆此大型上游作为独立课堂项目。URL根据可见域名补https。"
+    },
+    {
+      "session": 6,
+      "pdf": "14.pdf",
+      "pages": [
+        22,
+        23,
+        24,
+        51
+      ],
+      "kind": "framework_or_case_reference",
+      "name": "LeRobot",
+      "url": "https://github.com/huggingface/lerobot",
+      "note": "框架、硬件系统或案例；Dora用于讲解及Colab，课件未要求克隆此大型上游作为独立课堂项目。URL根据可见域名补https。"
+    },
+    {
+      "session": 6,
+      "pdf": "14.pdf",
+      "pages": [
+        18,
+        51
+      ],
+      "kind": "framework_or_case_reference",
+      "name": "OpenArm",
+      "url": "https://github.com/enactic/openarm",
+      "note": "框架、硬件系统或案例；Dora用于讲解及Colab，课件未要求克隆此大型上游作为独立课堂项目。URL根据可见域名补https。"
+    },
+    {
+      "session": 6,
+      "pdf": "14.pdf",
+      "pages": [
+        51
+      ],
+      "kind": "framework_or_case_reference",
+      "name": "OpenArm data collection",
+      "url": "https://github.com/enactic/dora-openarm-data-collection",
+      "note": "框架、硬件系统或案例；Dora用于讲解及Colab，课件未要求克隆此大型上游作为独立课堂项目。URL根据可见域名补https。"
+    },
+    {
+      "session": 6,
+      "pdf": "14.pdf",
+      "pages": [
+        51
+      ],
+      "kind": "framework_or_case_reference",
+      "name": "MuJoCo",
+      "url": "https://github.com/google-deepmind/mujoco",
+      "note": "框架、硬件系统或案例；Dora用于讲解及Colab，课件未要求克隆此大型上游作为独立课堂项目。URL根据可见域名补https。"
+    },
+    {
+      "session": 6,
+      "pdf": "14.pdf",
+      "pages": [
+        25,
+        51
+      ],
+      "kind": "framework_or_case_reference",
+      "name": "mjlab",
+      "url": "https://github.com/mujocolab/mjlab",
+      "note": "框架、硬件系统或案例；Dora用于讲解及Colab，课件未要求克隆此大型上游作为独立课堂项目。URL根据可见域名补https。"
+    },
+    {
+      "session": 6,
+      "pdf": "14.pdf",
+      "pages": [
+        26,
+        27
+      ],
+      "kind": "framework_or_case_reference",
+      "name": "legged_gym",
+      "url": "https://github.com/leggedrobotics/legged_gym",
+      "note": "框架、硬件系统或案例；Dora用于讲解及Colab，课件未要求克隆此大型上游作为独立课堂项目。URL根据可见域名补https。"
+    },
+    {
+      "session": 6,
+      "pdf": "14.pdf",
+      "pages": [
+        31
+      ],
+      "kind": "framework_or_case_reference",
+      "name": "OpenVLA",
+      "url": "https://github.com/openvla/openvla",
+      "note": "框架、硬件系统或案例；Dora用于讲解及Colab，课件未要求克隆此大型上游作为独立课堂项目。URL根据可见域名补https。"
+    },
+    {
+      "session": 6,
+      "pdf": "14.pdf",
+      "pages": [
+        31,
+        32,
+        51
+      ],
+      "kind": "framework_or_case_reference",
+      "name": "OpenPI",
+      "url": "https://github.com/Physical-Intelligence/openpi",
+      "note": "框架、硬件系统或案例；Dora用于讲解及Colab，课件未要求克隆此大型上游作为独立课堂项目。URL根据可见域名补https。"
+    },
+    {
+      "session": 6,
+      "pdf": "14.pdf",
+      "pages": [
+        41,
+        51
+      ],
+      "kind": "community_case_repository",
+      "name": "SO-ARM100",
+      "url": "https://github.com/TheRobotStudio/SO-ARM100",
+      "note": "社区/开源硬件案例，非课程必需代码。"
+    },
+    {
+      "session": 6,
+      "pdf": "14.pdf",
+      "pages": [
+        41
+      ],
+      "kind": "community_case_repository",
+      "name": "XLeRobot",
+      "url": "https://github.com/Vector-Wangel/XLeRobot",
+      "note": "社区/开源硬件案例，非课程必需代码。"
+    },
+    {
+      "session": 6,
+      "pdf": "14.pdf",
+      "pages": [
+        42,
+        51
+      ],
+      "kind": "community_case_repository",
+      "name": "mevius",
+      "url": "https://github.com/haraduka/mevius",
+      "note": "社区/开源硬件案例，非课程必需代码。"
+    },
+    {
+      "session": 6,
+      "pdf": "14.pdf",
+      "pages": [
+        43,
+        51
+      ],
+      "kind": "community_case_repository",
+      "name": "Open Duck Mini",
+      "url": "https://github.com/apirrone/Open_Duck_Mini",
+      "note": "社区/开源硬件案例，非课程必需代码。"
+    },
+    {
+      "session": 6,
+      "pdf": "14.pdf",
+      "pages": [
+        43,
+        51
+      ],
+      "kind": "community_case_repository",
+      "name": "yubi-hw",
+      "url": "https://github.com/Toyota/yubi-hw",
+      "note": "社区/开源硬件案例，非课程必需代码。"
+    },
+    {
+      "session": 6,
+      "pdf": "14.pdf",
+      "pages": [
+        51
+      ],
+      "kind": "community_case_repository",
+      "name": "jsk-ros-pkg organization",
+      "url": "https://github.com/jsk-ros-pkg",
+      "note": "社区/开源硬件案例，非课程必需代码。"
+    }
+  ],
+  "pdf_evidence": {
+    "page_numbering": "1-based physical PDF page, not printed slide number",
+    "source_page_counts": {
+      "8.pdf": 61,
+      "10.pdf": 106,
+      "11.pdf": 46,
+      "12.pdf": 45,
+      "13.pdf": 58,
+      "14.pdf": 52
+    },
+    "visually_checked_pages": {
+      "8.pdf": [
+        51,
+        58
+      ],
+      "10.pdf": [
+        4,
+        104
+      ],
+      "11.pdf": [
+        2,
+        6
+      ],
+      "12.pdf": [
+        2
+      ],
+      "13.pdf": [
+        57
+      ],
+      "14.pdf": [
+        20,
+        48
+      ]
+    }
+  },
+  "git_lfs": {
+    "materialized": false,
+    "pointer_files": [
+      "05_ros2_lerobot/pai_training/lerobot/tests/artifacts/image_transforms/single_transforms.safetensors",
+      "05_ros2_lerobot/pai_training/lerobot/tests/artifacts/image_transforms/default_transforms.safetensors",
+      "05_ros2_lerobot/pai_training/lerobot/tests/artifacts/policies/aloha_sim_insertion_human_act_1000_steps/output_dict.safetensors",
+      "05_ros2_lerobot/pai_training/lerobot/tests/artifacts/policies/aloha_sim_insertion_human_act_1000_steps/param_stats.safetensors",
+      "05_ros2_lerobot/pai_training/lerobot/tests/artifacts/policies/aloha_sim_insertion_human_act_1000_steps/actions.safetensors",
+      "05_ros2_lerobot/pai_training/lerobot/tests/artifacts/policies/aloha_sim_insertion_human_act_1000_steps/grad_stats.safetensors",
+      "05_ros2_lerobot/pai_training/lerobot/tests/artifacts/policies/xarm_lift_medium_tdmpc_use_mpc/output_dict.safetensors",
+      "05_ros2_lerobot/pai_training/lerobot/tests/artifacts/policies/xarm_lift_medium_tdmpc_use_mpc/param_stats.safetensors",
+      "05_ros2_lerobot/pai_training/lerobot/tests/artifacts/policies/xarm_lift_medium_tdmpc_use_mpc/actions.safetensors",
+      "05_ros2_lerobot/pai_training/lerobot/tests/artifacts/policies/xarm_lift_medium_tdmpc_use_mpc/grad_stats.safetensors",
+      "05_ros2_lerobot/pai_training/lerobot/tests/artifacts/policies/pusht_diffusion_/output_dict.safetensors",
+      "05_ros2_lerobot/pai_training/lerobot/tests/artifacts/policies/pusht_diffusion_/param_stats.safetensors",
+      "05_ros2_lerobot/pai_training/lerobot/tests/artifacts/policies/pusht_diffusion_/actions.safetensors",
+      "05_ros2_lerobot/pai_training/lerobot/tests/artifacts/policies/pusht_diffusion_/grad_stats.safetensors",
+      "05_ros2_lerobot/pai_training/lerobot/tests/artifacts/policies/xarm_lift_medium_tdmpc_use_policy/output_dict.safetensors",
+      "05_ros2_lerobot/pai_training/lerobot/tests/artifacts/policies/xarm_lift_medium_tdmpc_use_policy/param_stats.safetensors",
+      "05_ros2_lerobot/pai_training/lerobot/tests/artifacts/policies/xarm_lift_medium_tdmpc_use_policy/actions.safetensors",
+      "05_ros2_lerobot/pai_training/lerobot/tests/artifacts/policies/xarm_lift_medium_tdmpc_use_policy/grad_stats.safetensors",
+      "05_ros2_lerobot/pai_training/lerobot/tests/artifacts/policies/aloha_sim_insertion_human_act_/output_dict.safetensors",
+      "05_ros2_lerobot/pai_training/lerobot/tests/artifacts/policies/aloha_sim_insertion_human_act_/param_stats.safetensors",
+      "05_ros2_lerobot/pai_training/lerobot/tests/artifacts/policies/aloha_sim_insertion_human_act_/actions.safetensors",
+      "05_ros2_lerobot/pai_training/lerobot/tests/artifacts/policies/aloha_sim_insertion_human_act_/grad_stats.safetensors",
+      "05_ros2_lerobot/pai_training/lerobot/tests/artifacts/datasets/lerobot/xarm_lift_medium/frame_0.safetensors",
+      "05_ros2_lerobot/pai_training/lerobot/tests/artifacts/datasets/lerobot/xarm_lift_medium/frame_23.safetensors",
+      "05_ros2_lerobot/pai_training/lerobot/tests/artifacts/datasets/lerobot/xarm_lift_medium/frame_12.safetensors",
+      "05_ros2_lerobot/pai_training/lerobot/tests/artifacts/datasets/lerobot/xarm_lift_medium/frame_1.safetensors",
+      "05_ros2_lerobot/pai_training/lerobot/tests/artifacts/datasets/lerobot/xarm_lift_medium/frame_13.safetensors",
+      "05_ros2_lerobot/pai_training/lerobot/tests/artifacts/datasets/lerobot/xarm_lift_medium/frame_24.safetensors",
+      "05_ros2_lerobot/pai_training/lerobot/tests/artifacts/datasets/lerobot/aloha_sim_insertion_human/frame_0.safetensors",
+      "05_ros2_lerobot/pai_training/lerobot/tests/artifacts/datasets/lerobot/aloha_sim_insertion_human/frame_251.safetensors",
+      "05_ros2_lerobot/pai_training/lerobot/tests/artifacts/datasets/lerobot/aloha_sim_insertion_human/frame_499.safetensors",
+      "05_ros2_lerobot/pai_training/lerobot/tests/artifacts/datasets/lerobot/aloha_sim_insertion_human/frame_1.safetensors",
+      "05_ros2_lerobot/pai_training/lerobot/tests/artifacts/datasets/lerobot/aloha_sim_insertion_human/frame_498.safetensors",
+      "05_ros2_lerobot/pai_training/lerobot/tests/artifacts/datasets/lerobot/aloha_sim_insertion_human/frame_250.safetensors",
+      "05_ros2_lerobot/pai_training/lerobot/tests/artifacts/datasets/lerobot/pusht/frame_0.safetensors",
+      "05_ros2_lerobot/pai_training/lerobot/tests/artifacts/datasets/lerobot/pusht/frame_160.safetensors",
+      "05_ros2_lerobot/pai_training/lerobot/tests/artifacts/datasets/lerobot/pusht/frame_80.safetensors",
+      "05_ros2_lerobot/pai_training/lerobot/tests/artifacts/datasets/lerobot/pusht/frame_81.safetensors",
+      "05_ros2_lerobot/pai_training/lerobot/tests/artifacts/datasets/lerobot/pusht/frame_1.safetensors",
+      "05_ros2_lerobot/pai_training/lerobot/tests/artifacts/datasets/lerobot/pusht/frame_159.safetensors"
+    ]
+  },
+  "local_file_sha256": {
+    ".gitignore": "12954f79951372583ada949ea3025aabebef6fda4ff20dd1c36268a8187d071b",
+    "01_robops_intro/README.md": "9f7f6265262271d2dcbf44de019c6982ebfa3cdb6ad7c4f1e4540bb4d8045f44",
+    "02_robops_workshop/.dockerignore": "a24f52f818ff2fa8eab404f2d85db6696d40e6de29655477f7c199fce7f5d300",
+    "02_robops_workshop/.github/workflows/ci.yml": "a53eef95ef95677f49e594b8ec30828e2623f95970394ae09ef5a68335ea008a",
+    "02_robops_workshop/.gitignore": "12954f79951372583ada949ea3025aabebef6fda4ff20dd1c36268a8187d071b",
+    "02_robops_workshop/Dockerfile": "8c808c5312f32b99227a6770f539dcdf7c51ee8695c707aa83c3084194057895",
+    "02_robops_workshop/GUIDE_ZH.md": "08d6c3aef1c4914951ad88dd764c4c8c9d7c68d453414b7f6715d8b7d9a7de52",
+    "02_robops_workshop/PREPARATION.md": "f9d9c98ffe78fbe9e2380a13f08a7877a0da0db3eae8c08255b1d12cc29b1dc6",
+    "02_robops_workshop/README.md": "12faf0c8f2a127947dda080cf37a8a3072f8aa8b3ddbbadc8ff2079c784eb9e4",
+    "02_robops_workshop/compose.yaml": "2c24ceb3c13a24cb221916e035494e562756ae0d2466bf5ca9052e2d3044c715",
+    "02_robops_workshop/configs/eval_ci.yaml": "bd56cebed40767005eb1bbdb272c326e50209ee87fba90fcc8777ad1ad2bae9e",
+    "02_robops_workshop/configs/train_ci.yaml": "8e56cf2aaf3716bc4bcfccfc40db67155f459e857a155a6788fa3d90bb71fda7",
+    "02_robops_workshop/notebooks/01_roboops_workshop.ipynb": "426175f0dad66d3b30fcca3673cbe509cf0946d155a9250cd07cfd8cf0941fbe",
+    "02_robops_workshop/pyproject.toml": "ced9e954853c733de1df40b4f3f3e0a2108155d7f650e827f7466e635de60a89",
+    "02_robops_workshop/src/download_dataset.py": "7208b245d5b1e965cf8330d034799bf17e5229110e443bad1e1a0b8463b67d7a",
+    "02_robops_workshop/src/eval.py": "5dbb21874dc816c8d34e6a927627f3a94c8e6bdc85f420cab21423f3afe1ef64",
+    "02_robops_workshop/src/roboops/__init__.py": "ef6f1d92bac32ff27ad3220657769d9078e72834ff8bdd13bd0774f92052638b",
+    "02_robops_workshop/src/roboops/config.py": "70c23eb8fb116abf005ce2ed0309d1536b87c97f0c579f356c18662b7c211483",
+    "02_robops_workshop/src/roboops/data.py": "52e2747977ab9969952f3ddd7f475dc5136275baf486b2cbb2012b00fd11c587",
+    "02_robops_workshop/src/roboops/policy.py": "1a87c3c2b065536ce2ffdf922e01c44635821395cf5895c649284f48ca5a9ae4",
+    "02_robops_workshop/src/train.py": "d79ccdad64fe8afe63315676f6201aa55c1d419ffe73a375c48d17263baf943f",
+    "02_robops_workshop/src/validate_dataset.py": "3a1dc83e1ee752ccf0c03ddc89a8ddb568b94b5d7d5729730fb577e81ddb5e63",
+    "02_robops_workshop/tests/test_dataset.py": "d6ce5505061c57ed80dad0ec994675e65f8299f0e651d9ddd93dde97f9fa67bd",
+    "02_robops_workshop/tests/test_notebook.py": "7263cce0a8d05ce7a49cb3a1dc1a2761a365bd8868280bd77b335a1d66b0bc2f",
+    "02_robops_workshop/tests/test_policy.py": "adfb307a448f2ee7193f1f0f3119924b56373bd7b218cd82e34da3fcb438369c",
+    "02_robops_workshop/uv.lock": "19e26ffb85a00d7269b2a2c4aa365efe96bfb31dca6ecb5aea1e1167de53c73b",
+    "03_systems_devices/README.md": "38505cc8fe68e18256df95f30a0ec89f9ab923b7d3305115b803a9080edfe0b9",
+    "03_systems_devices/notebooks/第3回 演習資料solution 修正版0918.ipynb": "a24dc900fcb78e548fc7f7dbdb9cc04ee7811fa299e5d4e0132bfef8229926f7",
+    "03_systems_devices/notebooks/第3回 演習資料student 修正版0918.ipynb": "f4950d56511b4e99c93dabed5f9be8e6e7c5d2997119e30afc6b423cfffca84c",
+    "04_ros2_pubsub/README.md": "2d247ef25961f5ba59e1f5de1f5eecaa913b091f279888f430afbd67524c0cd7",
+    "04_ros2_pubsub/physicalai_pubsub/.gitignore": "a0e831cabca02dd0c7ac8ce478ad31d484bd9be2b6e8cef07996e712abfa4ee1",
+    "04_ros2_pubsub/physicalai_pubsub/LICENSE": "de9128eb79d23d0d435bf2d99b758ca69f0180398770a05b67155c0e742eafb8",
+    "04_ros2_pubsub/physicalai_pubsub/README.ja.md": "212a3857213ea8ae99c0d4d415a6896ec6dc1485e42ba9aba0b9793c5f8467d0",
+    "04_ros2_pubsub/physicalai_pubsub/README.md": "c669db312d08821790f96e4ea24ee67c7263766df684723b6c872d14df557f7b",
+    "04_ros2_pubsub/physicalai_pubsub/package.xml": "1b9edce80ed91a179d5c757c76f1f49b2c3f6575c00747d133ecad83786df190",
+    "04_ros2_pubsub/physicalai_pubsub/physicalai_pubsub/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "04_ros2_pubsub/physicalai_pubsub/physicalai_pubsub/action_publisher.py": "249625b9d4e843630ddbe97fd7f81c46093b60068bf5c830afddbaec8e0ea0fe",
+    "04_ros2_pubsub/physicalai_pubsub/physicalai_pubsub/state_subscriber.py": "5bc2e0a2b0cb1fd224bc952f91aa785126d780dbc4288b61f9b57851a1839d7a",
+    "04_ros2_pubsub/physicalai_pubsub/resource/physicalai_pubsub": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "04_ros2_pubsub/physicalai_pubsub/setup.cfg": "58b92ef63b536ff0631d4a49f28461d2e6521c4e3eff9d74fdc493e2b0d28f87",
+    "04_ros2_pubsub/physicalai_pubsub/setup.py": "693ea139ee75df87bdff255b934bbe8ac994a93b7951ee44f367f275056e086b",
+    "04_ros2_pubsub/physicalai_pubsub/test/test_copyright.py": "ea71bbbc6247b5c14d176ed09f39ee274d563cc9b2ec355828ea451ceff31757",
+    "04_ros2_pubsub/physicalai_pubsub/test/test_flake8.py": "37a813a0507f0ce51a2d0b57312d2cc078a0307a3ca85580ea801b0d2f9755d2",
+    "04_ros2_pubsub/physicalai_pubsub/test/test_pep257.py": "e8b88d49ee296987b1b40069f81019b5fa09b1aa1bfee9a1faae45bb5cf53eda",
+    "05_ros2_lerobot/README.md": "59a6a469eec8a4dfab9c86e7f38efc924c3ae937808e1086f7c72d10acf7c7e2",
+    "05_ros2_lerobot/optional/course_drive/G1+RL.ipynb": "28eebe5464e1cec30b66c315789ffa7a7587c09fbb1df24755ae33b57cd2b66f",
+    "05_ros2_lerobot/optional/course_drive/libero-smolvla_inf_only.ipynb": "60e449a015ef850faf46cf101e4462924451152b512e3f7b20d12b2510c3a4b0",
+    "05_ros2_lerobot/optional/original_archives/smolvla_ros2.zip": "91633df5a4c34e93d36580eae20560076735e2b75e117f4f131f22e59f562f9c",
+    "05_ros2_lerobot/optional/smolvla_ros2/README.md": "830368a4d7b40e9c9226854e3e1259c2b77ef76c738d35fbbc5a14b9ea5be754",
+    "05_ros2_lerobot/optional/smolvla_ros2/mac_server/setup.sh": "267ac0153bbb6a4a796c56d7713206203ad41cf965273daf9f70423e9bf7c977",
+    "05_ros2_lerobot/optional/smolvla_ros2/mac_server/start_server.sh": "c6f1bd5a589599f4d295160815b12f81f0b5ad03ec49c8a9e4c0ac07ae3561cb",
+    "05_ros2_lerobot/optional/smolvla_ros2/vla_lecture/README.md": "4d8d1e82cf2ccffc161de57a91c2b40534dce007230b625a088cb9cccca0ffc4",
+    "05_ros2_lerobot/optional/smolvla_ros2/vla_lecture/docker/Dockerfile.test": "3c71200f9d552ade83c380721e04a0f8297723658a3e7f7c4cb560ea430d434e",
+    "05_ros2_lerobot/optional/smolvla_ros2/vla_lecture/docs/front_camera.png": "bda283919780cd6998c24374f3dc232e81b05501791a0a452e093e6013e3e461",
+    "05_ros2_lerobot/optional/smolvla_ros2/vla_lecture/docs/wrist_camera.png": "cd9c98ad0a4a0b027fdaa85faf8fca65bd503ccd9738ecf0fd6b555b34c2320c",
+    "05_ros2_lerobot/optional/smolvla_ros2/vla_lecture/franka_vla_sim/config/controllers.yaml": "60cd431252fa48bcf797a3e9c1ba25b0fa96c61c299821d18d29578af23ca65c",
+    "05_ros2_lerobot/optional/smolvla_ros2/vla_lecture/franka_vla_sim/config/task.yaml": "df2d6d4a7d68525580a34b7afec12973798de046b7ca68b9514dec6f32953321",
+    "05_ros2_lerobot/optional/smolvla_ros2/vla_lecture/franka_vla_sim/franka_vla_sim/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "05_ros2_lerobot/optional/smolvla_ros2/vla_lecture/franka_vla_sim/franka_vla_sim/action_executor.py": "9f1078d8a1ee9a4cab6039090aaecc7058344389c9d7dfa6f985077ca80b1281",
+    "05_ros2_lerobot/optional/smolvla_ros2/vla_lecture/franka_vla_sim/franka_vla_sim/common.py": "3f38b72a287c88ebb6b20c1381f29b27478103fffa113d8b59729b8b56a9bf01",
+    "05_ros2_lerobot/optional/smolvla_ros2/vla_lecture/franka_vla_sim/franka_vla_sim/evaluator.py": "48532962b4a4214c381f84f35b7c2b9a7427987b865581390e60d9e4c765d813",
+    "05_ros2_lerobot/optional/smolvla_ros2/vla_lecture/franka_vla_sim/franka_vla_sim/kinematics.py": "f4aa291f78c96568e8c394c8a968a3df76caf31911bb406049ded1eb68195123",
+    "05_ros2_lerobot/optional/smolvla_ros2/vla_lecture/franka_vla_sim/franka_vla_sim/scripted_demo.py": "2e747a2747d179f532c9f9d89eedde882c77015a7225bb3d34fe4b7ed189f8f4",
+    "05_ros2_lerobot/optional/smolvla_ros2/vla_lecture/franka_vla_sim/franka_vla_sim/teleop_keyboard.py": "cbbd6d4288789ed23fac7731eb0cb9d294ba035d934e3b00dd4f737497f0153e",
+    "05_ros2_lerobot/optional/smolvla_ros2/vla_lecture/franka_vla_sim/franka_vla_sim/vla_client.py": "2d782db5d6c9e9a7ae08ec0c76610aefa23f6afb1cbf8ca39ad17673c122db48",
+    "05_ros2_lerobot/optional/smolvla_ros2/vla_lecture/franka_vla_sim/launch/policy.launch.py": "b5b03efb24548c701697d8e6baa12440ddb13674eb12da8a2d9e3700759321f0",
+    "05_ros2_lerobot/optional/smolvla_ros2/vla_lecture/franka_vla_sim/launch/sim.launch.py": "96cff7e463f5c12ee4bb7aaa9fe881397145dabed0d83c46245b2994baa47f94",
+    "05_ros2_lerobot/optional/smolvla_ros2/vla_lecture/franka_vla_sim/package.xml": "2a64d3f1d344247113fb5b3cdc03f6bcb06aacc277606a73b440b5f8645270e3",
+    "05_ros2_lerobot/optional/smolvla_ros2/vla_lecture/franka_vla_sim/resource/franka_vla_sim": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "05_ros2_lerobot/optional/smolvla_ros2/vla_lecture/franka_vla_sim/setup.cfg": "43bd5590498fdceaf35f6b7b9984176dac4668fc029b6b90e0038bbfd9e306c8",
+    "05_ros2_lerobot/optional/smolvla_ros2/vla_lecture/franka_vla_sim/setup.py": "b76cdf23f605e3de285169f203d02a7854fb9422fd81e696dd9e929629abdd2e",
+    "05_ros2_lerobot/optional/smolvla_ros2/vla_lecture/franka_vla_sim/urdf/fr3_vla.urdf.xacro": "835f2380172b61cafe4b737bd15beb515b4acb5eb6e86564a04abe5798537b01",
+    "05_ros2_lerobot/optional/smolvla_ros2/vla_lecture/franka_vla_sim/worlds/push_cube.sdf": "222ddce85bc6e40f907fc4238abbee6430fbbb970b81db3c2290c1537cc3611d",
+    "05_ros2_lerobot/optional/smolvla_ros2/vla_lecture/notebooks/smolvla_finetune.ipynb": "43cd0d6f43a3f8e2f70288afb30decbcf76124448484539bee59b4abd5a9350e",
+    "05_ros2_lerobot/optional/smolvla_ros2/vla_lecture/notebooks/smolvla_server.ipynb": "38f3e8459550f95924ce37cc206a21ba4b74ada022c3dd6f74d831448d8be120",
+    "05_ros2_lerobot/optional/smolvla_ros2/vla_lecture/pai_vla/.gitignore": "644d561de23c9375a908d5a37274705e3bf91593b194b83f2d5f04292b618446",
+    "05_ros2_lerobot/optional/smolvla_ros2/vla_lecture/pai_vla/configs/conversion_config.yaml": "8b2a553ac59f5a8f5a8b655c2d98967e5b478df55882a6ceda9e2ee600c857f6",
+    "05_ros2_lerobot/optional/smolvla_ros2/vla_lecture/pai_vla/pixi.lock": "0e287f9cbfa6bf1b49770e1a0c7b21b6ce575a45f1bca3e51234afb3443b8211",
+    "05_ros2_lerobot/optional/smolvla_ros2/vla_lecture/pai_vla/pyproject.toml": "244355d4fa1fc195004bdd31ec7aaae1e0e12c3079e54d2b08d3ddea2cb57dd4",
+    "05_ros2_lerobot/optional/smolvla_ros2/vla_lecture/pai_vla/scripts/rosbag2lerobot.py": "a0b4125a219ce65088b6130bf7998f8f3b00c69aa2acc6dfb816a4808818e733",
+    "05_ros2_lerobot/optional/smolvla_ros2/vla_lecture/server/smolvla_server.py": "d5de7bd5ce0f6e1bf0aff825bb415de40271e0a990f17c0b482495dd6d8ea52a",
+    "05_ros2_lerobot/optional/smolvla_ros2/vla_lecture/tests/teleop_key_driver.py": "4e01088f1b318f6c4558690edd489f369aa876e429dcbe0b3ed10d11a61d9e16",
+    "05_ros2_lerobot/optional/upstream_notebooks/LICENSE": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4",
+    "05_ros2_lerobot/optional/upstream_notebooks/training-act.ipynb": "d5c4090ff68a1af10dadc399e0c5cd651dd77ea82394c7ae1c4504678302e9e9",
+    "05_ros2_lerobot/optional/upstream_notebooks/training-smolvla.ipynb": "12f3dc39394a659b0b8bccae0dc88e87234ca1f6fd990f5565b2da2552342324",
+    "05_ros2_lerobot/pai_training/.gitattributes": "aaccaa098b58fcbf82a467f2995def326edc472d6295dc23bd9c68bc56ae49f5",
+    "05_ros2_lerobot/pai_training/.gitignore": "74d6138603b1b7ea38ef1dabff189480cc500dd85ee9ed7dea36c84458c8befd",
+    "05_ros2_lerobot/pai_training/.gitmodules": "52fa227a2d31196a512cd2891cb1b6ef1b94f0742a005fc819034c44b9bd1fa9",
+    "05_ros2_lerobot/pai_training/README.md": "964dde01627bcdac8f46a7e30a053bb585aa0082cf536ad22454cda1b03acb4a",
+    "05_ros2_lerobot/pai_training/configs/conversion_config.yaml": "338e1f1e9dec16f96ca38f166ddf4780c3a567142afc8cfaefe2adc5c2d5f2fe",
+    "05_ros2_lerobot/pai_training/configs/crane_features.py": "ff3dcd7f944f430b319e90ebae6605707466b0f6adb0708d0db525ff2b87cfc3",
+    "05_ros2_lerobot/pai_training/configs/train_config.yaml": "dc83c819279ed9ccbcb0c9d1a4e98628e7d1a46b0f6f17c993ae14998f614783",
+    "05_ros2_lerobot/pai_training/lerobot/.cache/calibration/aloha_default/left_follower.json": "7e12468944b756ce1d6d82ab1324242dfcc0ab21e1ae60913a118246d3ba0f5d",
+    "05_ros2_lerobot/pai_training/lerobot/.cache/calibration/aloha_default/left_leader.json": "82dfe0930d1103e503c8f54730194a0da756719288d8cfc7497b3b2ba946aa9a",
+    "05_ros2_lerobot/pai_training/lerobot/.cache/calibration/aloha_default/right_follower.json": "03d30e7e2b9a5fc8da149fe9ce9164845f5338071c55d87eab998b4ca2d65374",
+    "05_ros2_lerobot/pai_training/lerobot/.cache/calibration/aloha_default/right_leader.json": "bb025274f874613f04f96a7a5404a4a5ef7270766f0ed05337d50e5bafca8363",
+    "05_ros2_lerobot/pai_training/lerobot/.dockerignore": "b735976e9b8581df33aae214f8244d2dd5a5ba46ed6969222f5fd65bdf36e256",
+    "05_ros2_lerobot/pai_training/lerobot/.gitattributes": "f4e1cebc841c8ccbca1661a4ea89ea9e0391e88eb4f392d3b3adc825892bec37",
+    "05_ros2_lerobot/pai_training/lerobot/.github/ISSUE_TEMPLATE/bug-report.yml": "a3129f37efbbec702e4c43a3314a587e320751afe56f7bd081681a4d771114d9",
+    "05_ros2_lerobot/pai_training/lerobot/.github/PULL_REQUEST_TEMPLATE.md": "510cd18571b8dc9b774f3ce324c519a786371368bfc51e789157ffff1e0a0eb1",
+    "05_ros2_lerobot/pai_training/lerobot/.github/workflows/build-docker-images.yml": "490620440d02bc59731a1e40aeb38e9251abd31842deaa67765a95c3b480a917",
+    "05_ros2_lerobot/pai_training/lerobot/.github/workflows/nightly-tests.yml": "ac477c6ee8bd262c8ab9156d224ca192083a50a9d1714f8a841cfbcec8db0aee",
+    "05_ros2_lerobot/pai_training/lerobot/.github/workflows/quality.yml": "7ec43fcb22102ac289df9428a3cac272b9dbc25dad75ad04dd7584d8819052e4",
+    "05_ros2_lerobot/pai_training/lerobot/.github/workflows/test-docker-build.yml": "123e11ec8a5f6160e2f5461ee28dfa1454eb2bdb936fe94028df08eb46873f6a",
+    "05_ros2_lerobot/pai_training/lerobot/.github/workflows/test.yml": "a271abb3ae1f2050230824d3571fe163f48736b8ffb7a19d328218ef6e896034",
+    "05_ros2_lerobot/pai_training/lerobot/.github/workflows/trufflehog.yml": "b2b85dd7bcdc5ee5abba4623cc095bb53e8c980f4199188c529c780213ec2cac",
+    "05_ros2_lerobot/pai_training/lerobot/.gitignore": "b7e517974a37fdbd4aa8597341b73f9fa5b424b37863ec813fffa2f045c3f11e",
+    "05_ros2_lerobot/pai_training/lerobot/.pre-commit-config.yaml": "ddaf8195fb8a45dc501f5cd09b49664b635c8db32159c7e7fa02b1b14a34630b",
+    "05_ros2_lerobot/pai_training/lerobot/CODE_OF_CONDUCT.md": "dcb0ce2969a16955e7c31cd3a8e456b85e1d851158c6f6c0596f98da16d213f0",
+    "05_ros2_lerobot/pai_training/lerobot/CONTRIBUTING.md": "e3e32a2dd086afa8259579fca7664b278ca7f2a8e847da927d0a7da2c5777555",
+    "05_ros2_lerobot/pai_training/lerobot/LICENSE": "0583375a0ec642ec79c447781f34322b0cfa66baff31258214d040f1f6d86d7c",
+    "05_ros2_lerobot/pai_training/lerobot/Makefile": "e17e3fee5878d9e33437a4dd5e2d2268d59a4b3819e54d6f6336abfc6b9bb136",
+    "05_ros2_lerobot/pai_training/lerobot/README.md": "127e527e78c0f07387d25e13c1708d44d08232e1633ed67198239c893786036f",
+    "05_ros2_lerobot/pai_training/lerobot/benchmarks/video/README.md": "9ead629b35664bbfff6e3e5d30e925ed3c7d974061961aad1f6ff5dcd5292e26",
+    "05_ros2_lerobot/pai_training/lerobot/benchmarks/video/capture_camera_feed.py": "be48e4f690703f68d6be90585d7940649d40c039c184ca15582e1b467e2e3359",
+    "05_ros2_lerobot/pai_training/lerobot/benchmarks/video/run_video_benchmark.py": "1cfe6af68290e062dcc0af758400bcc58bcdb2e55dd3a70b8bb43af6271820c8",
+    "05_ros2_lerobot/pai_training/lerobot/docker/lerobot-cpu/Dockerfile": "9d8a55169720ff45f48ccfa2042dd02722201680163d45200ddfc09f75274aab",
+    "05_ros2_lerobot/pai_training/lerobot/docker/lerobot-gpu/Dockerfile": "c751b28d586b7d814c1f8aa4c6fd44378e092a5ebeb5f016d1f42cee9e5b5358",
+    "05_ros2_lerobot/pai_training/lerobot/docker/lerobot-gpu-dev/Dockerfile": "1cbb2175742999bace543eef202f832b5369ae48978bc916038b2c961edb00bf",
+    "05_ros2_lerobot/pai_training/lerobot/examples/10_use_so100.md": "a2fdc152cef5dd045d0f0e66f44b55b9bbebc89d53a58ae622dab2400fa97fe8",
+    "05_ros2_lerobot/pai_training/lerobot/examples/11_use_lekiwi.md": "40490a97c55a1634872d64252e67bc5f34684f484781b305f326e05b79767825",
+    "05_ros2_lerobot/pai_training/lerobot/examples/11_use_moss.md": "e6c5292a05d51ae763e9becd4135e9b0add3e37277a4c73ce7deec8ae9346076",
+    "05_ros2_lerobot/pai_training/lerobot/examples/1_load_lerobot_dataset.py": "36d7a1ab121f556088d9467c53e228eff138e9623d691e54d357b186af055ac4",
+    "05_ros2_lerobot/pai_training/lerobot/examples/2_evaluate_pretrained_policy.py": "b0af1e7ee3d868cc5c723f3855eb749406e5e95c79ff754e1bf402d888b15445",
+    "05_ros2_lerobot/pai_training/lerobot/examples/3_train_policy.py": "87ecf2c7b1c52dcb19ef52271298926c76166ad257c36997f618d4829b5c8f30",
+    "05_ros2_lerobot/pai_training/lerobot/examples/4_train_policy_with_script.md": "d372347d8852a331d2d98b0a9f608436799a54ecac878cb62c5571b1f4f31ba8",
+    "05_ros2_lerobot/pai_training/lerobot/examples/7_get_started_with_real_robot.md": "09071ba9e978a8a8445a916f5bc1e1288fa69fd92413bbbfcecac7737ba086bd",
+    "05_ros2_lerobot/pai_training/lerobot/examples/8_use_stretch.md": "798ea056211c9f8378fd9af95243da1ab2ee8fbebd9215d995768e8f3310a62a",
+    "05_ros2_lerobot/pai_training/lerobot/examples/9_use_aloha.md": "a3b3773dd3097b1f892daef6965ce0a355c1292a362abfb4e5d75f254e7e6b0b",
+    "05_ros2_lerobot/pai_training/lerobot/examples/advanced/1_add_image_transforms.py": "3921303d6465d457a3200505471646a9676c4d83a6d53e4aa859bbebd0044131",
+    "05_ros2_lerobot/pai_training/lerobot/examples/advanced/2_calculate_validation_loss.py": "95d42059c6c630f7a8f46d0a70de095de620f76172f5519a21e44bcfa157447d",
+    "05_ros2_lerobot/pai_training/lerobot/lerobot/__init__.py": "76783a1a95526920dbbbb350076f6e36e67bbc2d04a51b08969ddacfb4a50140",
+    "05_ros2_lerobot/pai_training/lerobot/lerobot/__version__.py": "beb2aa5d785c7e7ccbcb910ec4688e2868423458e2a1aac7fd76c1e1a182a470",
+    "05_ros2_lerobot/pai_training/lerobot/lerobot/common/constants.py": "e76383969fa50b9b4b0deeafef11a049bcdcbbbc744ac1de32522b3f81c1b3a9",
+    "05_ros2_lerobot/pai_training/lerobot/lerobot/common/datasets/backward_compatibility.py": "cfe568207eed7c2eb656de952aeee8362bebec4334f61ccc32b0bcb5b657e01d",
+    "05_ros2_lerobot/pai_training/lerobot/lerobot/common/datasets/card_template.md": "0a60fe690d5c06d817fe6b968f71f7d50e3f5411d6e95372403347249d2e9072",
+    "05_ros2_lerobot/pai_training/lerobot/lerobot/common/datasets/compute_stats.py": "9afd2da5f91d646e90cdacf9d9ab638e6d7c846fe8b82eb7630d5115fce30466",
+    "05_ros2_lerobot/pai_training/lerobot/lerobot/common/datasets/factory.py": "5502a17d653d1f417b25f58a91b01882d6e7fdc808c83c631bbf79e6065bbfe7",
+    "05_ros2_lerobot/pai_training/lerobot/lerobot/common/datasets/image_writer.py": "9ef3600e6906e5c9ab2a200cd72c8a2c58cd901bdbd50594f67dd5face440760",
+    "05_ros2_lerobot/pai_training/lerobot/lerobot/common/datasets/lerobot_dataset.py": "5d5e8db8a9c563a4ab39dafa7323fdacc70eb6d44bdcab3fcc5903a0c86c97c1",
+    "05_ros2_lerobot/pai_training/lerobot/lerobot/common/datasets/online_buffer.py": "d249b0d221418e7538bba8e20b4f46b44f6c144c84463b3c15921eda70903a19",
+    "05_ros2_lerobot/pai_training/lerobot/lerobot/common/datasets/push_dataset_to_hub/utils.py": "4aa7b52060ffde829bc736a0c5525f0dc6d6edfff4ec64616934b396acb7d66f",
+    "05_ros2_lerobot/pai_training/lerobot/lerobot/common/datasets/sampler.py": "a093a78002b5e5a5d460566e060e2acbc9aa5e9f2e283dac128985c499679397",
+    "05_ros2_lerobot/pai_training/lerobot/lerobot/common/datasets/transforms.py": "00353641da718d009eebf5282baf8369247874101fd140f0507d37fca0572cea",
+    "05_ros2_lerobot/pai_training/lerobot/lerobot/common/datasets/utils.py": "ecb63a1d84610f36dda78047058ef2e8c7b840544fef262baad7ccc2142ad031",
+    "05_ros2_lerobot/pai_training/lerobot/lerobot/common/datasets/v2/batch_convert_dataset_v1_to_v2.py": "c142827674743599d3e9a5a5d6818dbdc085eabfeb50c6324e55047aa3ef689d",
+    "05_ros2_lerobot/pai_training/lerobot/lerobot/common/datasets/v2/convert_dataset_v1_to_v2.py": "6c00ec375e07481a3a5b6b833cacc06b04951520210090df35c79c3116ea0ba8",
+    "05_ros2_lerobot/pai_training/lerobot/lerobot/common/datasets/v21/_remove_language_instruction.py": "41929fa6389b493ec15beaea83acc39c2c74e34fe8210c767eea70e4526ccdce",
+    "05_ros2_lerobot/pai_training/lerobot/lerobot/common/datasets/v21/batch_convert_dataset_v20_to_v21.py": "faef9ce957a1ef43326b579c3f33236bbe8c9e369cdd8c826d6256c0f5f3e1c6",
+    "05_ros2_lerobot/pai_training/lerobot/lerobot/common/datasets/v21/convert_dataset_v20_to_v21.py": "0c58d8290af74df5a26cf08360586a440f0ff8561b46929adf210fafcb8e044e",
+    "05_ros2_lerobot/pai_training/lerobot/lerobot/common/datasets/v21/convert_stats.py": "f1ff6f7f6e192dad238a74edaaaab209006d7f80f05cebf872b3932dff5ee99e",
+    "05_ros2_lerobot/pai_training/lerobot/lerobot/common/datasets/video_utils.py": "6b44e0cbe298438af99308354b903f0d6da011a8ba65ad80bf4740d18bcd7f90",
+    "05_ros2_lerobot/pai_training/lerobot/lerobot/common/envs/__init__.py": "4109273a32977e5edd453b67dfd40b5feaafdc452d60347bff7fdf3edae0a983",
+    "05_ros2_lerobot/pai_training/lerobot/lerobot/common/envs/configs.py": "c6f67dc5fb17b41e09ab14e899363d270170f2033130d128d9e127447403ba25",
+    "05_ros2_lerobot/pai_training/lerobot/lerobot/common/envs/factory.py": "fdec0adfc28e13b19e61a365645bb17b33e4271ef02558de87d07a883862ccf6",
+    "05_ros2_lerobot/pai_training/lerobot/lerobot/common/envs/utils.py": "033eec2ec5114065f3826cdfa0f7e86a04ca32e61a5ea9765da82fd4fa7aaa63",
+    "05_ros2_lerobot/pai_training/lerobot/lerobot/common/optim/__init__.py": "4f485904e4eca422d708f5507810d51ae99a614dd41aac98127ed6019b9b3cc5",
+    "05_ros2_lerobot/pai_training/lerobot/lerobot/common/optim/factory.py": "02bd16a99e9daf896b4a0ef2857852ffdd6729099c253475558708ad9c5e448c",
+    "05_ros2_lerobot/pai_training/lerobot/lerobot/common/optim/optimizers.py": "a0f4aa72b3f455bf23e22f50f60c14d15908cf1937a264a0dc28f3e38ea0cc21",
+    "05_ros2_lerobot/pai_training/lerobot/lerobot/common/optim/schedulers.py": "8fb1d655106e00dda643a3e75798715a3e3a0d89c5682dfd9a277bc26400173e",
+    "05_ros2_lerobot/pai_training/lerobot/lerobot/common/policies/__init__.py": "fb4a673dfe6fce2bea2ffbe902d1e7500a37e442026ddeea01ca40d949ee96ce",
+    "05_ros2_lerobot/pai_training/lerobot/lerobot/common/policies/act/configuration_act.py": "14b9059881f0b79d595147fc8596bc4ace21d028f1a933beab72bfe4bffb594d",
+    "05_ros2_lerobot/pai_training/lerobot/lerobot/common/policies/act/modeling_act.py": "b0464e05914c3fc4cff8ac89d4ae1d5e84c8355c968bf63062d1fc42f1320241",
+    "05_ros2_lerobot/pai_training/lerobot/lerobot/common/policies/diffusion/configuration_diffusion.py": "3de30b72c0539269a854518b780101908675e370f12f20fefe80e0fb021221da",
+    "05_ros2_lerobot/pai_training/lerobot/lerobot/common/policies/diffusion/modeling_diffusion.py": "badee75c1a1597e5664756c1e9dbbfe7b5599ac98b656a2fd14b42a36178f87a",
+    "05_ros2_lerobot/pai_training/lerobot/lerobot/common/policies/factory.py": "335585213af9269aa095b922dda0aad69ae263649ce570bbe599faf4f2dacb11",
+    "05_ros2_lerobot/pai_training/lerobot/lerobot/common/policies/normalize.py": "b266de275633ae8b636b59cb563b55b36a50d48ad8637e686a82fed72cffed56",
+    "05_ros2_lerobot/pai_training/lerobot/lerobot/common/policies/pi0/configuration_pi0.py": "ee04b129b452faffb2262d485e6754ab61f5fb93303e818ee082f0b52bb72b97",
+    "05_ros2_lerobot/pai_training/lerobot/lerobot/common/policies/pi0/conversion_scripts/benchmark.py": "c6d22a0a0213cfb085552b841518bad98cdfbc90fb5408869eac2a613a465681",
+    "05_ros2_lerobot/pai_training/lerobot/lerobot/common/policies/pi0/conversion_scripts/compare_with_jax.py": "6ccc1def64bd18de0454b97640cec7be582cfb6e1031589a41434101a13508e8",
+    "05_ros2_lerobot/pai_training/lerobot/lerobot/common/policies/pi0/conversion_scripts/conversion_utils.py": "5ae68dcea45c8542a986d1e4ce81ea59c089e5ad30f63c173c1016b19a8050ff",
+    "05_ros2_lerobot/pai_training/lerobot/lerobot/common/policies/pi0/conversion_scripts/convert_pi0_to_hf_lerobot.py": "c08f9e966cd7bda39be681a34262517dc49a4198b619a44702b0e0456d9fea3c",
+    "05_ros2_lerobot/pai_training/lerobot/lerobot/common/policies/pi0/flex_attention.py": "879be3dd236ff12734668f6abf01fed6c0a68dfa08c8b2b78cafdb45f8725de8",
+    "05_ros2_lerobot/pai_training/lerobot/lerobot/common/policies/pi0/modeling_pi0.py": "9cda151b2f7f93867205188c3840f76d717ec7a4153f3444d16df3b5adb9b88c",
+    "05_ros2_lerobot/pai_training/lerobot/lerobot/common/policies/pi0/paligemma_with_expert.py": "1aba460337aacf005fd1da9396a320febb22491b383e3ad76f3636f1f33ce8ae",
+    "05_ros2_lerobot/pai_training/lerobot/lerobot/common/policies/pi0fast/configuration_pi0fast.py": "5e30a88314fae75b303814092cd1d51148593e4f45f74b3805d2a2ef39448341",
+    "05_ros2_lerobot/pai_training/lerobot/lerobot/common/policies/pi0fast/modeling_pi0fast.py": "c893c60e6fd61fae191ada9df5244232cf0548cf78b9bdab985ad81e86d14de7",
+    "05_ros2_lerobot/pai_training/lerobot/lerobot/common/policies/pretrained.py": "f39d72b37c12c7d206e73b2983c740663b5ef0ba51c7628248f26fb57f9cda45",
+    "05_ros2_lerobot/pai_training/lerobot/lerobot/common/policies/tdmpc/configuration_tdmpc.py": "93d0842b0525122113bf09d72b4a6a58e56a1fcad88a637f6ef4abd70be439b2",
+    "05_ros2_lerobot/pai_training/lerobot/lerobot/common/policies/tdmpc/modeling_tdmpc.py": "b4fdbbf7a77af837ee4dc8ac8881fd7cc195bde68354df8b431cdd58756bdd77",
+    "05_ros2_lerobot/pai_training/lerobot/lerobot/common/policies/utils.py": "8c917a23d6b19c43de623b47e6d080b00e7d86b683661e95ca240e9e7df53e95",
+    "05_ros2_lerobot/pai_training/lerobot/lerobot/common/policies/vqbet/configuration_vqbet.py": "1bc458d457d3a4de491ecfa156333fad651bd331a242bbfb2d8503b639cc8575",
+    "05_ros2_lerobot/pai_training/lerobot/lerobot/common/policies/vqbet/modeling_vqbet.py": "4cc82a91c34342343922b19a20b777d5afeb79c29c7b497a5a4e674601d8916a",
+    "05_ros2_lerobot/pai_training/lerobot/lerobot/common/policies/vqbet/vqbet_utils.py": "c240c24a79a64a0cb4d6abb7299755a59dd08b136fc8c15590c219c46b308ec1",
+    "05_ros2_lerobot/pai_training/lerobot/lerobot/common/robot_devices/cameras/configs.py": "082b3c37671abe297c99d543e4cf55bf5afcf60a89ddc4c556ca399d526131e2",
+    "05_ros2_lerobot/pai_training/lerobot/lerobot/common/robot_devices/cameras/intelrealsense.py": "b16e3b53f26a7f3f6caecbcd561ea459ac09ea62db97731bff032cf1bcda29c7",
+    "05_ros2_lerobot/pai_training/lerobot/lerobot/common/robot_devices/cameras/opencv.py": "404b4e4b4c922a74b032bb90e139d22c36ad374a4d6beab62c610f629a534ac3",
+    "05_ros2_lerobot/pai_training/lerobot/lerobot/common/robot_devices/cameras/utils.py": "960531ca13073268f2f52806aa54837cc5d4bcbc4f4a86ae89f8b9d12de6a78e",
+    "05_ros2_lerobot/pai_training/lerobot/lerobot/common/robot_devices/control_configs.py": "b6091e8d1d9c407beec1fc59407e88e657bcca8b6f4df703bab4a5126e8ad7c7",
+    "05_ros2_lerobot/pai_training/lerobot/lerobot/common/robot_devices/control_utils.py": "16fb4065bbb73e4ad674670f9da5a2035684e44028df19b1b23af608f4679751",
+    "05_ros2_lerobot/pai_training/lerobot/lerobot/common/robot_devices/motors/configs.py": "ff68e57aeb494466306557aaf6cab84eab0647bdb517fb14499b21c1eda2802b",
+    "05_ros2_lerobot/pai_training/lerobot/lerobot/common/robot_devices/motors/dynamixel.py": "b458906d4bce9462c17dcdc2ef6a53c4227bde396364331c5f19047f5c7b1306",
+    "05_ros2_lerobot/pai_training/lerobot/lerobot/common/robot_devices/motors/feetech.py": "0c75f275693ff0e2f81d725db32057d7f649e95b703160af3d184f4d254681e2",
+    "05_ros2_lerobot/pai_training/lerobot/lerobot/common/robot_devices/motors/utils.py": "6741d163c145ae3374fd6af73ad0496a1f013bf44ec0433acde8e18c8493a6aa",
+    "05_ros2_lerobot/pai_training/lerobot/lerobot/common/robot_devices/robots/configs.py": "bd583c6a310b6e9950fa55ecb844ef07e90a341a26cfbf43bd22d6d5dcf4cb4b",
+    "05_ros2_lerobot/pai_training/lerobot/lerobot/common/robot_devices/robots/dynamixel_calibration.py": "d86b65846f03e95d51daa7cc7ddfc3639d592c9a7b0cdce74db1a63349b3cbe3",
+    "05_ros2_lerobot/pai_training/lerobot/lerobot/common/robot_devices/robots/feetech_calibration.py": "4fc8475ce7ea1e913dc642c496150292169ae59e242a7a761d3ffc42b5cc09bf",
+    "05_ros2_lerobot/pai_training/lerobot/lerobot/common/robot_devices/robots/lekiwi_remote.py": "79b12d2bb2666a44e7314b57043908026c125121ad7b81be225a619987545e00",
+    "05_ros2_lerobot/pai_training/lerobot/lerobot/common/robot_devices/robots/manipulator.py": "59ef4060c4348e69813215ab9abf756126104420f28c0d7956fe02353ee6a18e",
+    "05_ros2_lerobot/pai_training/lerobot/lerobot/common/robot_devices/robots/mobile_manipulator.py": "03ec409f872c6d390aa64974d55063f8a516de50b908b1d5b8365146e6fb3bcf",
+    "05_ros2_lerobot/pai_training/lerobot/lerobot/common/robot_devices/robots/stretch.py": "c795a10ca386f6974bffb7c45bcf358cfba342137dbf3ee9236c63c1a38019e8",
+    "05_ros2_lerobot/pai_training/lerobot/lerobot/common/robot_devices/robots/utils.py": "14c052ffa05900b2313499b8c76b4d8171338cdf0a2691a0510d516dbddc24fb",
+    "05_ros2_lerobot/pai_training/lerobot/lerobot/common/robot_devices/utils.py": "285fafa465d53997b0a5ba21c06a323b6087f9f48508ba6dfad95355f392579d",
+    "05_ros2_lerobot/pai_training/lerobot/lerobot/common/utils/benchmark.py": "cf57a55c92a84e393d273f6665876b24d9db5341f178614e9e9c1186a2dbc065",
+    "05_ros2_lerobot/pai_training/lerobot/lerobot/common/utils/hub.py": "45c01ace4553748c11bf5870b6d48a0be4847695ff754e459be6f85e1b4a178f",
+    "05_ros2_lerobot/pai_training/lerobot/lerobot/common/utils/import_utils.py": "30bb90a03feefe1dc350e1c4853e3d98efd1fb39c58021a54dd38f8a924dc352",
+    "05_ros2_lerobot/pai_training/lerobot/lerobot/common/utils/io_utils.py": "3c04da95df2f211faefec3527603596bcf4231072919d6a8d4bcaa3436a14d5c",
+    "05_ros2_lerobot/pai_training/lerobot/lerobot/common/utils/logging_utils.py": "31077aa0d6881fcbd5a4339412e539a932bf8e9b39a09d0f8394de9518dab5cd",
+    "05_ros2_lerobot/pai_training/lerobot/lerobot/common/utils/random_utils.py": "ff80dbacd959631924d21d129a1fe9b4435ddbe02b94fc1d26d05be420ef1fe1",
+    "05_ros2_lerobot/pai_training/lerobot/lerobot/common/utils/train_utils.py": "f1ffb366ba4691f74bd073c324ab70e948d219b2f6ec23e3f4d54c5ba0317a2a",
+    "05_ros2_lerobot/pai_training/lerobot/lerobot/common/utils/utils.py": "6fefb94793c65cfacff464e2139398288cf87cd118758cd1ab37ab51a4cd3876",
+    "05_ros2_lerobot/pai_training/lerobot/lerobot/common/utils/wandb_utils.py": "9c28f4b1f94f479de87b3f4451882048680ae612f3edc0b2cf4842e63eebe876",
+    "05_ros2_lerobot/pai_training/lerobot/lerobot/configs/default.py": "6f1c007df428d1cb59b5c0d9cd9a4577748cc1f29d5e837435ffd15e8f45193c",
+    "05_ros2_lerobot/pai_training/lerobot/lerobot/configs/eval.py": "4cf992109d0219b402837a3052e94cbc7f7f903e1f9a12ec13360e1915e07a52",
+    "05_ros2_lerobot/pai_training/lerobot/lerobot/configs/parser.py": "6ebf70c974c366f0ee1d873f2fd40ef9bb259b95ec944dc6d37b50364908a823",
+    "05_ros2_lerobot/pai_training/lerobot/lerobot/configs/policies.py": "9c062f04140d214f81e245e537bc2b50d8f237ab65deaeab361ec2d0d31aaedc",
+    "05_ros2_lerobot/pai_training/lerobot/lerobot/configs/train.py": "d85129260d623ddecddfc2996a3a8519e804715761c3a2449a8793131a3b4794",
+    "05_ros2_lerobot/pai_training/lerobot/lerobot/configs/types.py": "dc105f31de06a06c5cf150dc0c40b623f2a0be7b9f0a5374e385bc3d7db18823",
+    "05_ros2_lerobot/pai_training/lerobot/lerobot/scripts/configure_motor.py": "0e186a531e349970a3266efccae8a6eac3b9c125d64cf7eeb4ea0bd267ed6694",
+    "05_ros2_lerobot/pai_training/lerobot/lerobot/scripts/control_robot.py": "7c96faf04fd1d7d50d3e88185928d042c75f68f8d2fe497bf5af9049f7bbe007",
+    "05_ros2_lerobot/pai_training/lerobot/lerobot/scripts/control_sim_robot.py": "2c368c396b481b512f81acd7c20749cd68a85f06070cda451a290d36597f030f",
+    "05_ros2_lerobot/pai_training/lerobot/lerobot/scripts/display_sys_info.py": "2489004a336847fccedaae560a241041fec964ad9042590b3b7e1d4d97795b66",
+    "05_ros2_lerobot/pai_training/lerobot/lerobot/scripts/eval.py": "f19910d828ed81fad31156d1a350d1b75fca82766315208ad201251c443f9d25",
+    "05_ros2_lerobot/pai_training/lerobot/lerobot/scripts/find_motors_bus_port.py": "369ea515ca3e9259614d1872f2400e93bad05a1d29f07856f50e40654a5a9fd6",
+    "05_ros2_lerobot/pai_training/lerobot/lerobot/scripts/push_pretrained.py": "ed8bb24b2df7c0dc8aae7c864aa3171321572f6652285c0378dc0090a58830f3",
+    "05_ros2_lerobot/pai_training/lerobot/lerobot/scripts/train.py": "004433933b37ff7295614fc1e800eec8f4abbb4a6e284ff02caeb5b95efaf919",
+    "05_ros2_lerobot/pai_training/lerobot/lerobot/scripts/visualize_dataset.py": "dad5da1cc62458fc27f2434059b68db9dde4fdef7a6fda09b791ab018c94ad9c",
+    "05_ros2_lerobot/pai_training/lerobot/lerobot/scripts/visualize_dataset_html.py": "c4dc03c067b83c2398a7fbe32060eba4979e0a2e09e52d967c788bf557c38793",
+    "05_ros2_lerobot/pai_training/lerobot/lerobot/scripts/visualize_image_transforms.py": "356a89f9fa05281575e4056d58dc67c61a4398f5f704fdaccc08eea9bb69acc3",
+    "05_ros2_lerobot/pai_training/lerobot/lerobot/templates/visualize_dataset_homepage.html": "f1d8a75a1ef757bd5ed6b265c26f8d44be0f9e83c7427c577e4c66045516b833",
+    "05_ros2_lerobot/pai_training/lerobot/lerobot/templates/visualize_dataset_template.html": "4d3ecc293e9873c8243dcd073a6ebc9e2c8aa653c37ece7f51ec188f13225407",
+    "05_ros2_lerobot/pai_training/lerobot/media/aloha/follower_rest.webp": "1801fbd6ff3e861fefd8d3c92341c815a388cb641f3206cacd0749e14677b0e6",
+    "05_ros2_lerobot/pai_training/lerobot/media/aloha/follower_rotated.webp": "3fbdaecd85155293f50c063cdd4f03db35fe7786a14ab472bb9a5c7c49fc8504",
+    "05_ros2_lerobot/pai_training/lerobot/media/aloha/follower_zero.webp": "02550d2d99aa93e25bfc8cf51879ff6efbc5f5c3bf9765acd326580e74356f03",
+    "05_ros2_lerobot/pai_training/lerobot/media/aloha/leader_rest.webp": "c76238081bd23af1f679bf65c33f106dbf3f5d3f2ec1f03f5f6916d5aae7a154",
+    "05_ros2_lerobot/pai_training/lerobot/media/aloha/leader_rotated.webp": "d28ee1231b6f9c4a46fa348445a6d9a7a8951954d0e7e22ebd4c3984b91255b5",
+    "05_ros2_lerobot/pai_training/lerobot/media/aloha/leader_zero.webp": "aa9fe2c36a702fd4422c515dea1544d2aac8bf4397eb44bfa5197480e8459937",
+    "05_ros2_lerobot/pai_training/lerobot/media/gym/aloha_act.gif": "f10f8a91a65c62a844a255c17dd30c820c1c805c13af00fb49c6499b7cbed849",
+    "05_ros2_lerobot/pai_training/lerobot/media/gym/pusht_diffusion.gif": "4599f556ab12717698774d14781c1e5b9afbf1c57df0a9c6cc25ca2a3032fecc",
+    "05_ros2_lerobot/pai_training/lerobot/media/gym/simxarm_tdmpc.gif": "11739ff20376cd0a3deee86b98b493f25b32ff03e975624044e2c3b80b35302c",
+    "05_ros2_lerobot/pai_training/lerobot/media/koch/follower_rest.webp": "deaf2982c3681b10040000f1e8da434beb106957b182b39291d0b8f0e4620867",
+    "05_ros2_lerobot/pai_training/lerobot/media/koch/follower_rotated.webp": "e7e2a04d953ccfc27592e8941e1aac7cc4fd8bccedfda41c28072df848014ffc",
+    "05_ros2_lerobot/pai_training/lerobot/media/koch/follower_zero.webp": "a0d570019fb1a3fef5c91a4bea9d1fd41298aed761b62afad096321a5ec6b414",
+    "05_ros2_lerobot/pai_training/lerobot/media/koch/leader_rest.webp": "42704e3060a933fac20ccb840d688c489ad61ddfdb42fbbb413808b6324dcb13",
+    "05_ros2_lerobot/pai_training/lerobot/media/koch/leader_rotated.webp": "0c11644b4c83939196767755fbc4ea2f98a388901e2978ccb7d2115ce7448801",
+    "05_ros2_lerobot/pai_training/lerobot/media/koch/leader_zero.webp": "fbabb785cd3b03445f02042c9415946cbed398f49a06f2b0205bf5aac1e0abf8",
+    "05_ros2_lerobot/pai_training/lerobot/media/lekiwi/kiwi.webp": "e17d0417db3f5481437814e31b469546fe4e9ae7b8aa69b2180c97e1f3393d6c",
+    "05_ros2_lerobot/pai_training/lerobot/media/lekiwi/mobile_calib_rest.webp": "55cf3d5d4cb7cf1697c5d88496c74521557c3987afbd658f73c0b87b3c5b0790",
+    "05_ros2_lerobot/pai_training/lerobot/media/lekiwi/mobile_calib_rotated.webp": "11bb51a4694df26ab294abf9ea936e5e596d27fdbcddad4910d7fe9be80610ac",
+    "05_ros2_lerobot/pai_training/lerobot/media/lekiwi/mobile_calib_zero.webp": "33a8f41d136ff620f148cd4b49f5f9e0a3ac866a37c84d9109a2a1f075444a35",
+    "05_ros2_lerobot/pai_training/lerobot/media/lekiwi/motor_ids.webp": "1efcac7a3912c09bfbe807ba6744a4102a7861c7089038677d72fe2822723ceb",
+    "05_ros2_lerobot/pai_training/lerobot/media/lerobot-logo-light.png": "5bf6cd4c35a017f0d498be07cd4d3f004ee3a023c43383abdeb13163a591be0b",
+    "05_ros2_lerobot/pai_training/lerobot/media/lerobot-logo-thumbnail.png": "72ee48061c2528eb9f6a1f163622d4805476a52c813bd03f2f32e32d89afd63e",
+    "05_ros2_lerobot/pai_training/lerobot/media/moss/follower_initial.webp": "8554f908f506099f3de5c88006850f0bef5edd0a3a508e0e033887e3fd48a97c",
+    "05_ros2_lerobot/pai_training/lerobot/media/moss/follower_rest.webp": "2f0967f8422de0e1a4382fd962ce29727fd645e182c56c46f6dbf5cef88c9355",
+    "05_ros2_lerobot/pai_training/lerobot/media/moss/follower_rotated.webp": "7c1903e6fb405dad2ef59b23009f27d022b0e1024d4400f6d7d7df99c0ff02c7",
+    "05_ros2_lerobot/pai_training/lerobot/media/moss/follower_zero.webp": "04b6e89652a1d0c279b7d6c2a3694aa85168fa9a6ddf613e9a0839dad7a884eb",
+    "05_ros2_lerobot/pai_training/lerobot/media/moss/leader_rest.webp": "ecf25449a1c855cb4c923c301877c1e9c05c41ea423e77b3cb322998fa36f74f",
+    "05_ros2_lerobot/pai_training/lerobot/media/moss/leader_rotated.webp": "afbec4050821098f75ad61b13ca51e0ab78d58893e3f563a879d58a9d1705644",
+    "05_ros2_lerobot/pai_training/lerobot/media/moss/leader_zero.webp": "487bfb33f99e99ca9a89ae679ccab32c46b29891d8537d4bead425c0e977c232",
+    "05_ros2_lerobot/pai_training/lerobot/media/so100/follower_initial.webp": "14ff4a0c33a667f62c3e3a109e87530f0204154606466402d85f85c78bde4307",
+    "05_ros2_lerobot/pai_training/lerobot/media/so100/follower_rest.webp": "c64105576ee4105174929921d29b1a0d9dd2d2b1489e6c663b7c6b2db8c8796f",
+    "05_ros2_lerobot/pai_training/lerobot/media/so100/follower_rotated.webp": "a82ebed9f5a3351d63f35ddc3c6ec3e4bd87818d37ffb74d1f92390cf0158e0d",
+    "05_ros2_lerobot/pai_training/lerobot/media/so100/follower_zero.webp": "a47c56ed794ab09110c5668ad05bf27b26b810fd03b43add47c78e05943981e1",
+    "05_ros2_lerobot/pai_training/lerobot/media/so100/leader_follower.webp": "d62790391c7536c661cbd8eb2a4c5012d0fc44873f0811a75b7adea0c5d556a6",
+    "05_ros2_lerobot/pai_training/lerobot/media/so100/leader_rest.webp": "39eabd72bff27fb956ea549abd7f2bdb8f4ba854c71681d4940132974f36e504",
+    "05_ros2_lerobot/pai_training/lerobot/media/so100/leader_rotated.webp": "3b3799a27446e7b115170ab056f013146e8a04cecf4246e289a0eb0244be3c97",
+    "05_ros2_lerobot/pai_training/lerobot/media/so100/leader_zero.webp": "d6f11c3165e8a4e0dc3e04974a6add01fa9cfcf15b4d09f973053e25858d98c4",
+    "05_ros2_lerobot/pai_training/lerobot/media/tutorial/img1.jpg": "4253e8ddbe1a03ffd6e4c1d2bcb6bda18901bf4ead74039aa0ff4e713d1f7317",
+    "05_ros2_lerobot/pai_training/lerobot/media/tutorial/img10.jpg": "5eaec975790a5e48cffb3e789b2def3ae96bfb5a62da5cb9cc362a8e37874eb3",
+    "05_ros2_lerobot/pai_training/lerobot/media/tutorial/img11.jpg": "cf4ed6307a25d8bcca71024c4a2e910618b7c1d876b019a4410105accb7fdd7a",
+    "05_ros2_lerobot/pai_training/lerobot/media/tutorial/img12.jpg": "fb22e938b0e4c690d60c4994320d499fb31223b186848892cec73d3d107e8c30",
+    "05_ros2_lerobot/pai_training/lerobot/media/tutorial/img13.jpg": "d9d9d92747896ba2b33ae7924e92042197a2bd2f29a645628a413da19f650786",
+    "05_ros2_lerobot/pai_training/lerobot/media/tutorial/img14.jpg": "3d8fa66266ba37de80fd2bcff16c8d252e181f59818bfcecbf3caf0be3c96f66",
+    "05_ros2_lerobot/pai_training/lerobot/media/tutorial/img15.jpg": "ce736452645e5a24b7e0f849aa3aad368fbfe0062e3095e03d5e2d406fb70571",
+    "05_ros2_lerobot/pai_training/lerobot/media/tutorial/img16.jpg": "a861949376b3880ae3a1fd543ede74f39a545c9df27235cde9d65006dbda0414",
+    "05_ros2_lerobot/pai_training/lerobot/media/tutorial/img17.jpg": "877117365b5c73bad8f084f580562886ef26c6e5a2af5acac6baa0cb7dfe509b",
+    "05_ros2_lerobot/pai_training/lerobot/media/tutorial/img18.jpg": "190cb1a9a2d5c969a68982f4f65833a4ff080e6e4af84e7e29578e3a92a2e238",
+    "05_ros2_lerobot/pai_training/lerobot/media/tutorial/img19.jpg": "a5a77acd7b752974f9af6d9af1e64dd80a1fa2d56832d1e7120702ca3343a942",
+    "05_ros2_lerobot/pai_training/lerobot/media/tutorial/img2.jpg": "af83c41492678f16bd088e1bf6c673e1849fa36510dc2e2c6e8f561ea814c46d",
+    "05_ros2_lerobot/pai_training/lerobot/media/tutorial/img20.jpg": "58e14a5a6da891ce4bfb7f4af19d9decd3282942e0d39babfcd462c89ef58e71",
+    "05_ros2_lerobot/pai_training/lerobot/media/tutorial/img21.jpg": "0dc62e147347ebbc32adc754b955ae61f85fe609b3b3197a64f03ecc9d576cbd",
+    "05_ros2_lerobot/pai_training/lerobot/media/tutorial/img22.jpg": "05d887dcf91148ce7a8b337697296e01bb6013cd9ce2815c20f10a391195551f",
+    "05_ros2_lerobot/pai_training/lerobot/media/tutorial/img23.jpg": "b23da2e34d583ea49d9eea614e1c7da4975aff92655e5722e03a17c7abf32d2c",
+    "05_ros2_lerobot/pai_training/lerobot/media/tutorial/img24.jpg": "44b94db503fe1dbdadc496c669534333df372f5b341e75eef5a864606b8aecad",
+    "05_ros2_lerobot/pai_training/lerobot/media/tutorial/img25.jpg": "b458894d328a27b17d96e84c5f89760c1837c9101e64dca89b648e0fa2bf5b4b",
+    "05_ros2_lerobot/pai_training/lerobot/media/tutorial/img26.jpg": "fa1d99ce57b21aac005f2e94afd6136d462dd47e2768a831bea6b0d7dde8183a",
+    "05_ros2_lerobot/pai_training/lerobot/media/tutorial/img27.jpg": "8b313907b91ad7e91709a51c602731e6769a1824279caaabdac7a338ff7b6b83",
+    "05_ros2_lerobot/pai_training/lerobot/media/tutorial/img28.jpg": "47f09627b39cfaa9501efdbb8dc971975ec71e234d6416edd9c03784204007dd",
+    "05_ros2_lerobot/pai_training/lerobot/media/tutorial/img29.jpg": "2b52545b555a73230756061d582af00fae57441bf0a060a96196d9b35bf6a202",
+    "05_ros2_lerobot/pai_training/lerobot/media/tutorial/img3.jpg": "877ef88f2d596fda81bf9e3861b720784fd4917c828593e7acf4b9caf1dc86e0",
+    "05_ros2_lerobot/pai_training/lerobot/media/tutorial/img30.jpg": "307463d909873bd5486f07bdafb8140b0510ba5da5d39be17999fd8e00e24a33",
+    "05_ros2_lerobot/pai_training/lerobot/media/tutorial/img31.jpg": "5c944c55682ceaa7ff0012dea01c6a6fd2f7b941101a835a81594e2e6ab7457a",
+    "05_ros2_lerobot/pai_training/lerobot/media/tutorial/img32.jpg": "8a6579479980320e3a836479a075c3bbc03f73b415eec5fcd00f36067021c12f",
+    "05_ros2_lerobot/pai_training/lerobot/media/tutorial/img4.jpg": "f9cd16a6b29b03f0b0c71a9da815f584eb829273db37871e87223082eb99e9f2",
+    "05_ros2_lerobot/pai_training/lerobot/media/tutorial/img5.jpg": "82341f7232cef3a3740f7e4950ba2e75bb3ccc02b52235ae2205151dc2aabc15",
+    "05_ros2_lerobot/pai_training/lerobot/media/tutorial/img6.jpg": "54be4b30c6df289a901104af4fd955260404124b0e3209a3afe3bc5a563340e6",
+    "05_ros2_lerobot/pai_training/lerobot/media/tutorial/img7.jpg": "63121f97cf9b621538454b50cfb33b86c8c9bf46ee749644abb985ffe0e604b0",
+    "05_ros2_lerobot/pai_training/lerobot/media/tutorial/img8.jpg": "44dfbad3b33c323ec93343eecb7170a5636524841be8277670516102d989a53f",
+    "05_ros2_lerobot/pai_training/lerobot/media/tutorial/img9.jpg": "c5324d141c947cee674440e83561208505d1e5b5fd52ea6debf210b707166901",
+    "05_ros2_lerobot/pai_training/lerobot/media/tutorial/koch_v1_1_leader_follower.webp": "727f1f6687918a6e8a3961f620514d729542e753b093b9b3611da9fa4a092c47",
+    "05_ros2_lerobot/pai_training/lerobot/media/tutorial/visualize_dataset_html.webp": "01ecc7ba3901b884082fc9e181a0a07025377dde132c69cb78e0874cfafb3ae0",
+    "05_ros2_lerobot/pai_training/lerobot/media/wandb.png": "bd6f74a6d07d26d4252246ed85c6c6719e0b8011c6f070e51d5521d7bb24dc67",
+    "05_ros2_lerobot/pai_training/lerobot/pyproject.toml": "1a9c207b6e0ad7be02e6a70c61e5b7c2aae14500645fc9d0b2e6a8674a81f87f",
+    "05_ros2_lerobot/pai_training/lerobot/tests/__init__.py": "7c685e1896165e21778b442e0568c114ac33322d177aedc52c6134b329a09174",
+    "05_ros2_lerobot/pai_training/lerobot/tests/artifacts/datasets/lerobot/aloha_sim_insertion_human/frame_0.safetensors": "d72106069ef71512962a53c533e95099262dbb4a5dd7f30394b71611d6a95c6b",
+    "05_ros2_lerobot/pai_training/lerobot/tests/artifacts/datasets/lerobot/aloha_sim_insertion_human/frame_1.safetensors": "866a7360c069563f683025304013bb33014400626997977308448380fa655cf9",
+    "05_ros2_lerobot/pai_training/lerobot/tests/artifacts/datasets/lerobot/aloha_sim_insertion_human/frame_250.safetensors": "bdea5ae5053a8a8543682474ce25599abbd89fc52af25aeb8928523b790b8e03",
+    "05_ros2_lerobot/pai_training/lerobot/tests/artifacts/datasets/lerobot/aloha_sim_insertion_human/frame_251.safetensors": "dc80916d7bf01053008abf82c0f6abe918d899c8246f808d255bdab33cffabef",
+    "05_ros2_lerobot/pai_training/lerobot/tests/artifacts/datasets/lerobot/aloha_sim_insertion_human/frame_498.safetensors": "c6dc5fa8cc78cd791fbc02ff6a903b9ed6985bc4fa21922088e764b320cda722",
+    "05_ros2_lerobot/pai_training/lerobot/tests/artifacts/datasets/lerobot/aloha_sim_insertion_human/frame_499.safetensors": "d48cb07a1677c1dbf9047dffaf6dccde3cb782192af5aade7b69da9226bb3295",
+    "05_ros2_lerobot/pai_training/lerobot/tests/artifacts/datasets/lerobot/pusht/frame_0.safetensors": "9e700a108852b53b6c127f94f6f1cc109a9d97dc8388a082aea350b006563ecc",
+    "05_ros2_lerobot/pai_training/lerobot/tests/artifacts/datasets/lerobot/pusht/frame_1.safetensors": "5dfed489cc9cc8d6f033499e454bf23de04d3627eab705111271517ac8b2b84b",
+    "05_ros2_lerobot/pai_training/lerobot/tests/artifacts/datasets/lerobot/pusht/frame_159.safetensors": "9e8f0d8aa74e435ad656f93217b5e407fd2b817544213c0fd5e5230040d9e4cc",
+    "05_ros2_lerobot/pai_training/lerobot/tests/artifacts/datasets/lerobot/pusht/frame_160.safetensors": "97b15975a0ce0bdfc1406f1f46b054ab858f3e85758bb737709eda5d9e6774c9",
+    "05_ros2_lerobot/pai_training/lerobot/tests/artifacts/datasets/lerobot/pusht/frame_80.safetensors": "99faa1e17ab76cd4fb26ab4689525ec900b27a9a586371f53d13751af387f6eb",
+    "05_ros2_lerobot/pai_training/lerobot/tests/artifacts/datasets/lerobot/pusht/frame_81.safetensors": "dbd5ce2fac77f46afd90e617aed7ec374006646a958a662bcc202b5019172313",
+    "05_ros2_lerobot/pai_training/lerobot/tests/artifacts/datasets/lerobot/xarm_lift_medium/frame_0.safetensors": "fa22cb24ca8cbc25cdd64d31d76e54539ea90a43b33fc6af71bb0518dbabf29d",
+    "05_ros2_lerobot/pai_training/lerobot/tests/artifacts/datasets/lerobot/xarm_lift_medium/frame_1.safetensors": "5d8b7c6aed4cdcfc5cd6f74f22601166b9acf945af60b0a380d8deb80c539293",
+    "05_ros2_lerobot/pai_training/lerobot/tests/artifacts/datasets/lerobot/xarm_lift_medium/frame_12.safetensors": "fe5fd8b231042ede278f81c0efe1a5ddb409c8c596729ecad4168916c482373e",
+    "05_ros2_lerobot/pai_training/lerobot/tests/artifacts/datasets/lerobot/xarm_lift_medium/frame_13.safetensors": "ce144258493e5144cd0a6a68922bf10c0d4eec4a99849adb75a504f663044918",
+    "05_ros2_lerobot/pai_training/lerobot/tests/artifacts/datasets/lerobot/xarm_lift_medium/frame_23.safetensors": "73c7aedf1e38b7ac9522062e97e5985006d9d5ea87770ae35bfa074aa318a31f",
+    "05_ros2_lerobot/pai_training/lerobot/tests/artifacts/datasets/lerobot/xarm_lift_medium/frame_24.safetensors": "6ecce7245caa3b7411afaaa7229edc2455efdf0fea1bd991e5369814b752490b",
+    "05_ros2_lerobot/pai_training/lerobot/tests/artifacts/datasets/save_dataset_to_safetensors.py": "0f0a6ad7e35afe0f7785a9ced835e089e954b64077837744c8a5830b364d5193",
+    "05_ros2_lerobot/pai_training/lerobot/tests/artifacts/image_transforms/default_transforms.safetensors": "1d9fc02fbaa8be06218c6e5e509e26eccd68430727f641223b90bd62304ac51c",
+    "05_ros2_lerobot/pai_training/lerobot/tests/artifacts/image_transforms/save_image_transforms_to_safetensors.py": "6370ca72be7c07de4a64f7961c55af93a973b11a40fe9ae3b87c283b131c951a",
+    "05_ros2_lerobot/pai_training/lerobot/tests/artifacts/image_transforms/single_transforms.safetensors": "dcf9b7d62c47885b9ec7c03c9e9edba9f632f63b99fd226325a0e78c2d189fae",
+    "05_ros2_lerobot/pai_training/lerobot/tests/artifacts/policies/aloha_sim_insertion_human_act_/actions.safetensors": "798bd0513bdcbdb452474f22ef2e57ab311a57beab0eccc2ac184c73650ce722",
+    "05_ros2_lerobot/pai_training/lerobot/tests/artifacts/policies/aloha_sim_insertion_human_act_/grad_stats.safetensors": "d58cffaf1794a565b41a2431fc85a4f18b92d893c992e215482fa28474ea1f8c",
+    "05_ros2_lerobot/pai_training/lerobot/tests/artifacts/policies/aloha_sim_insertion_human_act_/output_dict.safetensors": "f5ffce00ed138e08751b06a6812894dcd277e027b564b06129c9d9a7d97010ed",
+    "05_ros2_lerobot/pai_training/lerobot/tests/artifacts/policies/aloha_sim_insertion_human_act_/param_stats.safetensors": "ab7d582dc95aa404eab76b20734babcb2fdecda3e5649a99d502d08e9c6889db",
+    "05_ros2_lerobot/pai_training/lerobot/tests/artifacts/policies/aloha_sim_insertion_human_act_1000_steps/actions.safetensors": "88fb765c40657cb4ac10682337b805f34cba3f512a42722db9b45c60e325d504",
+    "05_ros2_lerobot/pai_training/lerobot/tests/artifacts/policies/aloha_sim_insertion_human_act_1000_steps/grad_stats.safetensors": "40a2fc196a93d3ccea70fbf5ecf3edee4be6f7d5181858177657135f1636592e",
+    "05_ros2_lerobot/pai_training/lerobot/tests/artifacts/policies/aloha_sim_insertion_human_act_1000_steps/output_dict.safetensors": "66c5a542fcbddf0e8d15ee976873ca1a9e203da941dc282df6ebd615ea63cdaf",
+    "05_ros2_lerobot/pai_training/lerobot/tests/artifacts/policies/aloha_sim_insertion_human_act_1000_steps/param_stats.safetensors": "8f55148fb49a7802ce99a820704e39afd42b3b9be441b6d3bfb41c4b8bb62bc7",
+    "05_ros2_lerobot/pai_training/lerobot/tests/artifacts/policies/pusht_diffusion_/actions.safetensors": "c64956ca2e4ba12b6bcc21e46008f8e9a534acf840e32e1495267d01fe2bffd3",
+    "05_ros2_lerobot/pai_training/lerobot/tests/artifacts/policies/pusht_diffusion_/grad_stats.safetensors": "92065c34fdf624e40e2f57af6c2e0f8a971ca8ec05e3cc612688c12a6ab1593c",
+    "05_ros2_lerobot/pai_training/lerobot/tests/artifacts/policies/pusht_diffusion_/output_dict.safetensors": "11bdf1d38c386aabcc1593f2bb30ff3a416fe1e8ab6ffc1e1480310658a33f97",
+    "05_ros2_lerobot/pai_training/lerobot/tests/artifacts/policies/pusht_diffusion_/param_stats.safetensors": "af425facf028eb867983ad35ed34b5aed0bbc3d6d08b9ede5ecb234ed5b5597a",
+    "05_ros2_lerobot/pai_training/lerobot/tests/artifacts/policies/save_policy_to_safetensors.py": "53e811d862ee7ccd96dc7bdf390fc4b3bff36a51be5d291a77457f53cf6c5fcc",
+    "05_ros2_lerobot/pai_training/lerobot/tests/artifacts/policies/xarm_lift_medium_tdmpc_use_mpc/actions.safetensors": "661b26793a531938234dd104919d202e15d5ec87fa6b52ddee0f17826cd825b6",
+    "05_ros2_lerobot/pai_training/lerobot/tests/artifacts/policies/xarm_lift_medium_tdmpc_use_mpc/grad_stats.safetensors": "01941c0a7a8ac08970626230425ffbcc4824968f3bd55e9e14b8c1e454c9bad7",
+    "05_ros2_lerobot/pai_training/lerobot/tests/artifacts/policies/xarm_lift_medium_tdmpc_use_mpc/output_dict.safetensors": "ad29d9f72173daf09d26c60b9c68132296845c2e3f5fb4fc009321aacfb1ab47",
+    "05_ros2_lerobot/pai_training/lerobot/tests/artifacts/policies/xarm_lift_medium_tdmpc_use_mpc/param_stats.safetensors": "7568fb97b22c6f770259f310586dd314f08be0cdff4f05c873725c1d5ae1121c",
+    "05_ros2_lerobot/pai_training/lerobot/tests/artifacts/policies/xarm_lift_medium_tdmpc_use_policy/actions.safetensors": "faa9bea523cf61af8fcee166844f275c2a91a44b978232a2068ce9b75938ef15",
+    "05_ros2_lerobot/pai_training/lerobot/tests/artifacts/policies/xarm_lift_medium_tdmpc_use_policy/grad_stats.safetensors": "01941c0a7a8ac08970626230425ffbcc4824968f3bd55e9e14b8c1e454c9bad7",
+    "05_ros2_lerobot/pai_training/lerobot/tests/artifacts/policies/xarm_lift_medium_tdmpc_use_policy/output_dict.safetensors": "ad29d9f72173daf09d26c60b9c68132296845c2e3f5fb4fc009321aacfb1ab47",
+    "05_ros2_lerobot/pai_training/lerobot/tests/artifacts/policies/xarm_lift_medium_tdmpc_use_policy/param_stats.safetensors": "7568fb97b22c6f770259f310586dd314f08be0cdff4f05c873725c1d5ae1121c",
+    "05_ros2_lerobot/pai_training/lerobot/tests/cameras/mock_cv2.py": "19ae999919ea834480583dd298b3687dfb9a13494f416ef4f2f1d8ac9b237ac6",
+    "05_ros2_lerobot/pai_training/lerobot/tests/cameras/mock_pyrealsense2.py": "ecfa090192138894c383566880168841c5c462c62a3316b95d2052b5ef0813bf",
+    "05_ros2_lerobot/pai_training/lerobot/tests/cameras/test_cameras.py": "ff5b967342579f2ea8ce52bfb582d999e1a1f661f6d64b19b956af2ec031da80",
+    "05_ros2_lerobot/pai_training/lerobot/tests/configs/test_plugin_loading.py": "09938e0b38a6c46f8edfa6ce5c6f77193861ed7c3fb4df6f401f888ae784b7d9",
+    "05_ros2_lerobot/pai_training/lerobot/tests/conftest.py": "9a80502a2f5ddf9f70ecbc284d743a95d564064ba721f1e14c1ecb4e954ee03e",
+    "05_ros2_lerobot/pai_training/lerobot/tests/datasets/test_compute_stats.py": "1b0a27d75f019baabc4f30ef140131a8c11637ccf5ce2c3595db8d442c61eea1",
+    "05_ros2_lerobot/pai_training/lerobot/tests/datasets/test_datasets.py": "e3a834a4c599e9f6b6f8ee7ed62dacf9a199966060ebdbeb9356ab5bf6f4a93c",
+    "05_ros2_lerobot/pai_training/lerobot/tests/datasets/test_delta_timestamps.py": "649dfb9bca4edef4e59965f7e7f9585425e5c4b0ef58fd5117f1e7e1f4df088e",
+    "05_ros2_lerobot/pai_training/lerobot/tests/datasets/test_image_transforms.py": "9b6225adcaa52ccbede0a18d3173cf87d2a3c4c6ddde9b179734d451012cacac",
+    "05_ros2_lerobot/pai_training/lerobot/tests/datasets/test_image_writer.py": "c3083e3f00196301c576d4d7d22d0bb4067a1e818cdeb1f3d166e384211531bf",
+    "05_ros2_lerobot/pai_training/lerobot/tests/datasets/test_online_buffer.py": "af38a905ee5eede7fc61c8dfbf425d62b718f1a2a53bc8a19d8c5132228476a6",
+    "05_ros2_lerobot/pai_training/lerobot/tests/datasets/test_sampler.py": "e4995200b70cbd4af23463f454da98c19221673147f9d5487dc1bb77ea87ce0a",
+    "05_ros2_lerobot/pai_training/lerobot/tests/datasets/test_utils.py": "5fcd002506037e96a25ddc0e795076630c57bd840be9b386e7cdf77d86988cc0",
+    "05_ros2_lerobot/pai_training/lerobot/tests/datasets/test_visualize_dataset.py": "266237eb2505703973f9ef8f29d954a7f9902c38f383e6518d267c110e92e214",
+    "05_ros2_lerobot/pai_training/lerobot/tests/envs/test_envs.py": "86b94d19e0c0910ba9a0de7b9a9644bfb17def36bb9e318db1cdb074e99ddb77",
+    "05_ros2_lerobot/pai_training/lerobot/tests/examples/test_examples.py": "2c830b0fd546793070ccff921b4d27e34281525bae20c5edb79c8891a8eae555",
+    "05_ros2_lerobot/pai_training/lerobot/tests/fixtures/constants.py": "38cedd68d710ceade0b1e0c2d5ee9c1ef18f79300ca81abb4019b1d0d8e6173f",
+    "05_ros2_lerobot/pai_training/lerobot/tests/fixtures/dataset_factories.py": "f3aac38b4efb2ae444a720d92d018ae77f0d73989fd74f117d42fc07963a6e82",
+    "05_ros2_lerobot/pai_training/lerobot/tests/fixtures/files.py": "c9f32271d429c358926b55161fe88b435aaf4dcca7b9616bac2bf254a88db804",
+    "05_ros2_lerobot/pai_training/lerobot/tests/fixtures/hub.py": "35220eb391d6fdff2a37027cc912b8c8088172ce3bb1cc0758b97619ad64779a",
+    "05_ros2_lerobot/pai_training/lerobot/tests/fixtures/optimizers.py": "a46916fabf4d4cb670306c3d954ffdfb40c1a30c054627d6cbc50f1dbd133fb2",
+    "05_ros2_lerobot/pai_training/lerobot/tests/motors/mock_dynamixel_sdk.py": "77673071926374c00c9505b42bc18f5840d59bc06a376cff641321431c81ce96",
+    "05_ros2_lerobot/pai_training/lerobot/tests/motors/mock_scservo_sdk.py": "a6fc5bf88728547b4b2bf91b867c62f421dea8028707d45e37697083db34337f",
+    "05_ros2_lerobot/pai_training/lerobot/tests/motors/test_motors.py": "fe1d2190ec88fdd634bdcd3358458c5f29e4c121cebec8864e3e0cfdd877adbc",
+    "05_ros2_lerobot/pai_training/lerobot/tests/optim/test_optimizers.py": "b4518bc313a39278dc1d1774fbc4184907eab974c416634f3f69ec2c0350f65a",
+    "05_ros2_lerobot/pai_training/lerobot/tests/optim/test_schedulers.py": "4c20e5e42117d44da684c58cb1fb6f971ebd64e2515968d5c6c1bdfb9e8a830f",
+    "05_ros2_lerobot/pai_training/lerobot/tests/policies/test_policies.py": "976e447b0cdbf13b1dac7e266cdb03c125493a4b792b2bf6a4db01394dd5469d",
+    "05_ros2_lerobot/pai_training/lerobot/tests/robots/test_control_robot.py": "a2abbc5132af2320b1542881438c082e80e1f579b71120456822b4f5291841a9",
+    "05_ros2_lerobot/pai_training/lerobot/tests/robots/test_robots.py": "ed8a82cf69a976144cd6828263e4663ccde5245e003ed4556f6b683944021b7c",
+    "05_ros2_lerobot/pai_training/lerobot/tests/test_available.py": "09b19fcf7828464672801ec8c5ba0d8fe20b0ad24f94f9b1d67a4e606b6f631f",
+    "05_ros2_lerobot/pai_training/lerobot/tests/utils/test_io_utils.py": "1da7428cb759b6b7f4b4ee45854b4c5c78fa21f127904e8916ca96e7952dce17",
+    "05_ros2_lerobot/pai_training/lerobot/tests/utils/test_logging_utils.py": "cba66911c04e1b1d5e1954936f8b5241103e0244a17c81051692015f32293ea0",
+    "05_ros2_lerobot/pai_training/lerobot/tests/utils/test_random_utils.py": "60ff63503c4aeb1f2de6424ff3222dc947e83306e04ed03a063380cb355a95bb",
+    "05_ros2_lerobot/pai_training/lerobot/tests/utils/test_train_utils.py": "c79946e0dab9952298cf542ef8ef0b90502c2738135f1f209d199e3d854e59c4",
+    "05_ros2_lerobot/pai_training/lerobot/tests/utils.py": "d053826be4c58bbecbe5669229616189642bd303d7297f843614e406297a47d9",
+    "05_ros2_lerobot/pai_training/pixi.lock": "45b9e52d80edd9df7e9721989e49b197003814fbdfa1a5e632a5fa72e82a6a2b",
+    "05_ros2_lerobot/pai_training/pyproject.toml": "7ca2300f1a60a75db5eb7c4c3580a0c3524f99511914907de91e1c39d8dc6046",
+    "05_ros2_lerobot/pai_training/scripts/debug_policy.py": "fb722fe20d51ff1d128f0376efb5b12c7c5107df371630b8f7806e4a2d030533",
+    "05_ros2_lerobot/pai_training/scripts/infer.py": "7767e797086cf8795553dc868c3803ecb34393b2a9f6e136299a3b766c27a8dc",
+    "05_ros2_lerobot/pai_training/scripts/rosbag2lerobot.py": "34f9d5a3c182fb7b1a1765cd750f0b3e7ea2e88b780aad6dd18beae5e4bc01e4",
+    "05_ros2_lerobot/pai_training/scripts/train.py": "5d77a540b9e243a6d3ff7f9ee41166337f9634475af481f0248b5a555f6cd17e",
+    "05_ros2_lerobot/pai_training/scripts/visualize_dataset.py": "a8ba8042e140bfdadc3703cb414aad3f1f5a764746c8216ec441b568dc818e49",
+    "05_ros2_lerobot/pai_training/src/pai_training/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "05_ros2_lerobot/physicalai_teleop/.gitignore": "c3e26350bf5680d0b5c8c28b05c1d3f5a6c4b888d822a6778e7260bcc0248a08",
+    "05_ros2_lerobot/physicalai_teleop/CMakeLists.txt": "e3e4a8a6050cb5e609d8ca5b94227b7cc950b7f3acf1d19b2bbb934dc9b5e97e",
+    "05_ros2_lerobot/physicalai_teleop/README.md": "531abc5cd826cd01ba6aa99cf2b2f04c6be4c7bf476315ba16395d4f5744bae1",
+    "05_ros2_lerobot/physicalai_teleop/package.xml": "efee8a2e45f10a31778b6c6d1f01f8b2f3e3024a5ea878edeb2aa366ad6a8ee6",
+    "05_ros2_lerobot/physicalai_teleop/physicalai_teleop/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "05_ros2_lerobot/physicalai_teleop/physicalai_teleop/teleop_keyboard.py": "3bb3abbfbc6996dd216a4ffb04ec9aa98ec7b4ec97e1fb50f6065d8ed513295d",
+    "05_ros2_lerobot/physicalai_teleop/resource/physicalai_teleop": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "05_ros2_lerobot/physicalai_teleop/setup.cfg": "98c1d42896f6035ab6f79793c43134624788bf496242eaa90516f04018c2f4e6",
+    "05_ros2_lerobot/physicalai_teleop/setup.py": "e3b290756eb20ca6c044011ce5c5acf3777ff37f4f16e2da1adaed701af5d406",
+    "05_ros2_lerobot/physicalai_teleop/test/test_copyright.py": "ea71bbbc6247b5c14d176ed09f39ee274d563cc9b2ec355828ea451ceff31757",
+    "05_ros2_lerobot/physicalai_teleop/test/test_flake8.py": "37a813a0507f0ce51a2d0b57312d2cc078a0307a3ca85580ea801b0d2f9755d2",
+    "05_ros2_lerobot/physicalai_teleop/test/test_pep257.py": "e8b88d49ee296987b1b40069f81019b5fa09b1aa1bfee9a1faae45bb5cf53eda",
+    "06_open_source/README.md": "a15e78e7fd12d9096532b818bbb07980d674b59744669f79618326ad3a3ce59d",
+    "06_open_source/notebooks/第6回 演習資料.ipynb": "192db3a7de04cfff7a9e433217b4f84c4d67981da12bd2e94615aadb856c808b",
+    "06_open_source/pai-2026-advance-oss-lecture/.github/pull_request_template.md": "140dfa777be648a49d990c2133ba8ca277b2988566517be51e930399e0e32021",
+    "06_open_source/pai-2026-advance-oss-lecture/.github/workflows/ci.yml": "e58816f9e0ea278f3bfaadcdf5584076299bbc814a246dc5b90f4e6a4721a952",
+    "06_open_source/pai-2026-advance-oss-lecture/.gitignore": "a657088144d0aac194bc5eb0c501452a7c1b6867e5b6e7deda6199110aad199e",
+    "06_open_source/pai-2026-advance-oss-lecture/.pre-commit-config.yaml": "812198e2da8fe9fd686a287cc01846678dc7800bde7255bef2b86cfe07532a16",
+    "06_open_source/pai-2026-advance-oss-lecture/CONTRIBUTING.md": "7f6ef1384d27f287855e098332c4f6fbf4ab63d696659f057f9dc74565f070b6",
+    "06_open_source/pai-2026-advance-oss-lecture/LICENSE": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4",
+    "06_open_source/pai-2026-advance-oss-lecture/README.md": "80dcbc80fa9b601b568aec0be4b21526ce5fc1ea808aa4ef29fb4ed5d0fe7bc1",
+    "06_open_source/pai-2026-advance-oss-lecture/participants/1244586t.toml": "f8cb0b5c9177d81e9365ca0f0d108d7f8961c2dba8e5f19f7455d72bb2c108f0",
+    "06_open_source/pai-2026-advance-oss-lecture/participants/K-Sy.toml": "3598113adf5152615e88bda610ee9f716c93fcbe78ca699c5d249290fc193ded",
+    "06_open_source/pai-2026-advance-oss-lecture/participants/Keizoogawa.toml": "714f8dcc3877f32701a6bb1b2cd1c1b20c913dde0f0c23d15725e6f868585ee0",
+    "06_open_source/pai-2026-advance-oss-lecture/participants/Kosuke-Nagao.toml": "d932f8d6e416005d305283f02a02db598d6d184c4126a6cf799b2d1e54992126",
+    "06_open_source/pai-2026-advance-oss-lecture/participants/MaruDeAnima.toml": "e59ffc57ae7853f515f021f765fe9373342588d287431df2c520004935744e4e",
+    "06_open_source/pai-2026-advance-oss-lecture/participants/README.md": "e1532b1a8bc9e18da0bfc2e8c5ea69184deb8b93690a311db56ac97db590557a",
+    "06_open_source/pai-2026-advance-oss-lecture/participants/TAKA-IT.toml": "ef9082754a9c4977a3333a1a40964932d0361020159406c72f2777cb79e07f2b",
+    "06_open_source/pai-2026-advance-oss-lecture/participants/Takeyuki-K.toml": "7dbebb366d334ecefdbe3031b915571946a83a3c7b77f0eeaa1acf9c481fa12a",
+    "06_open_source/pai-2026-advance-oss-lecture/participants/TaroNakasendo.toml": "5449d9031446f65192f8f9de5813c87e2cb18c48cfcade581d3afce93a3b485f",
+    "06_open_source/pai-2026-advance-oss-lecture/participants/Tomoaki-Sanada.toml": "f3ed109c8f01a766b3a47bc24c566afabe9d5aa5d96b6c4702edc65dbc07f284",
+    "06_open_source/pai-2026-advance-oss-lecture/participants/YutaYoshiokaMK2.toml": "03f072f1cfc1fc75660bc913156626062128850b542bc7ba5f1c9efdd10b586e",
+    "06_open_source/pai-2026-advance-oss-lecture/participants/amaboxer.toml": "40950ce5659d3d9b59ede6c44ae84034d13580520c55da81ee8db7c8c8618ddd",
+    "06_open_source/pai-2026-advance-oss-lecture/participants/amouri28.toml": "76553cf262d5fbd24af831164a8b6b683de854b2965b7e917033cbd9dc876264",
+    "06_open_source/pai-2026-advance-oss-lecture/participants/ayoyo-dot.toml": "f606ad601e770f951b7bab287b0891f631362b8d8443edd54d5f94725f339f80",
+    "06_open_source/pai-2026-advance-oss-lecture/participants/calvero98.toml": "8eee4042675790071874e02e52c893e4d30f0a512cd9e3aef58bdc91eef63cb5",
+    "06_open_source/pai-2026-advance-oss-lecture/participants/clearwaterkzk.toml": "d82e88efa32afcb2a77dc8e7193951b2f3158c5c9d0787852ac7e841d7d578e9",
+    "06_open_source/pai-2026-advance-oss-lecture/participants/erikomaru.toml": "8ca66da06c83c8192ae061e4522d26591c97a2865209762fa4c14d2d49f50a13",
+    "06_open_source/pai-2026-advance-oss-lecture/participants/fllrvr.toml": "b2f2e100283266cc6663a51797f84413deffa38a787acb2d2d847418b245dfda",
+    "06_open_source/pai-2026-advance-oss-lecture/participants/fujihoge.toml": "262ab985b6de942aefb8ea2af5f7d5a15ad9bca7a0a260776851960c04877aac",
+    "06_open_source/pai-2026-advance-oss-lecture/participants/git-motoo.toml": "756750e05ad31d8504e946377c98659805a098e54148a415d75e010aada17620",
+    "06_open_source/pai-2026-advance-oss-lecture/participants/gomi-kuzu.toml": "b7ec76618a485ce76e772ca1e43e915ef80a50b65daed446e17d14ad50e1d2d6",
+    "06_open_source/pai-2026-advance-oss-lecture/participants/gourmetFoodieYoshie.toml": "1ab8a29e251e5b28115dc15fc7ba5409d5fb65b733243670a08ccfef749200b3",
+    "06_open_source/pai-2026-advance-oss-lecture/participants/gzq2024.toml": "d108f70d223750a4c1fc757e9356d92fe23568633783ed3fe9b4df1e7e89d4a1",
+    "06_open_source/pai-2026-advance-oss-lecture/participants/hashkenbiz.toml": "cb3613ced0187dae4b11945b3fbcc75093fa1abe60da82d66981926cb9f7035f",
+    "06_open_source/pai-2026-advance-oss-lecture/participants/hinata-kikuchi.toml": "99c4a6be56c23fbef92c20e01403f85399111e66ef0ebaf5ccc7b0148115ed7b",
+    "06_open_source/pai-2026-advance-oss-lecture/participants/inoueissei.toml": "d439fd85582b5ada1d3ed2a325cfe47489f50b6c821cbb229823dac019940044",
+    "06_open_source/pai-2026-advance-oss-lecture/participants/jumpei.toml": "ed3b33e8df4d4a1efbbcfdb796b6368d07afdc67c0c1c73aabb380cc92105491",
+    "06_open_source/pai-2026-advance-oss-lecture/participants/k1000dai.toml": "4644c3dd4f4e39eaad27a0433cc0548dcc62103d646a96603eb49de832092a54",
+    "06_open_source/pai-2026-advance-oss-lecture/participants/kanzoujapan.toml": "1d5023969a9cf5ddda9d9b1c00286f11dd94b3ea191f8127bdc3011d38cbd521",
+    "06_open_source/pai-2026-advance-oss-lecture/participants/katsuhisa91.toml": "62e21697d970189c6343a5e108d9f6a62013efe4b00a1c78e1b133a1380ec93f",
+    "06_open_source/pai-2026-advance-oss-lecture/participants/kinoshita-rintaro-lab.toml": "288c6c06aeff26656f0112e82796946d51d49817e08415a487cbf73ddeba5131",
+    "06_open_source/pai-2026-advance-oss-lecture/participants/kohzih.toml": "e3dcda005f33bc08e02298c252ec5402d22586f87562b08e34d1248075580252",
+    "06_open_source/pai-2026-advance-oss-lecture/participants/koyakenn.toml": "0b75d5442c95e1695d4289f1acffca9ecee6726bbd486e8a60370eaf9c294086",
+    "06_open_source/pai-2026-advance-oss-lecture/participants/kurokikni.toml": "ea5d1e22862d2aad94e8e6623d5b71f03f043969125f82de550b4c79516cdb47",
+    "06_open_source/pai-2026-advance-oss-lecture/participants/ky-ok.toml": "e0b5b56d1ff3e708c5a3df8606dfa8ac31c03c8520a28159542a451a3e30a06a",
+    "06_open_source/pai-2026-advance-oss-lecture/participants/ma3ma2.toml": "16e8007bdb2c4a821d4478371780ee5fe6a2ba41b014f6ce0ee4703eb898846e",
+    "06_open_source/pai-2026-advance-oss-lecture/participants/masfuji.toml": "1463d35b942c4561bfce23e87cd083b5da44bb5a0f3984a9a3aa13cbf3a1c131",
+    "06_open_source/pai-2026-advance-oss-lecture/participants/matsuokamasa17-ops.toml": "68965dab4ba07a8d5375c97bb6c56ffd5102e1dbab00818e2d2e6f226990ce85",
+    "06_open_source/pai-2026-advance-oss-lecture/participants/matu-matu.toml": "ef6da4d58514d9aa673e8da33cb1c0896d78c7cefe828f1f24afc48f2a5b66a1",
+    "06_open_source/pai-2026-advance-oss-lecture/participants/moro-qq82.toml": "a845dfb8f17f7c3024a2ad52bb2ed227b9470723cd550dc8175fea9b46e6684f",
+    "06_open_source/pai-2026-advance-oss-lecture/participants/moushi21.toml": "c11e81f5030d79e571d94878be426f1a2cf92d85fb631f1cc9c0a3f6f657581e",
+    "06_open_source/pai-2026-advance-oss-lecture/participants/noriakiimaoka.toml": "55d788308bc7aa15d646a2d30f313f2be865cec320622fe2f6cbc5f611739c35",
+    "06_open_source/pai-2026-advance-oss-lecture/participants/oxygen65.toml": "c33ebbe64b33fee8fa48113116da6c416da3a9bdcdffaaf34adf17928adbb1b4",
+    "06_open_source/pai-2026-advance-oss-lecture/participants/rqhsk688-lab.toml": "fa152e887217dd36d1f86445db0e3c84446e5223b96d7d7362d8415146585a22",
+    "06_open_source/pai-2026-advance-oss-lecture/participants/ryota0051.toml": "098a17d25ec739b132e4555dd25095b5ff6c52847ae9dc640c4ee4a5f59424a7",
+    "06_open_source/pai-2026-advance-oss-lecture/participants/sokosokobe.toml": "1fdedea9f7333e0a8e189e13fe76d715f797731b24d8a51cb7b9b1463ebad1cd",
+    "06_open_source/pai-2026-advance-oss-lecture/participants/sst-yoshizumi.toml": "6e843d66425897bd47393252f2ae57dd1f9135b24a90d7ef4f3b1580e60566de",
+    "06_open_source/pai-2026-advance-oss-lecture/participants/takatakashi.toml": "2ca378f15b9643a327396cc4f3116581ca20eec7a0e0a0effc945d1ef96de449",
+    "06_open_source/pai-2026-advance-oss-lecture/participants/takego2x.toml": "01466e15121dc28e845ab398c154efce96bc90386ecbedfb94447fda31abbd1d",
+    "06_open_source/pai-2026-advance-oss-lecture/participants/takeshi200ok-oss.toml": "c846592ec1ff3d25697e2e906c54d70c5fd51e7d357ac9fa4e2a1b79097000e0",
+    "06_open_source/pai-2026-advance-oss-lecture/participants/tri-takanezawa.toml": "c34394e0175e4f35d73402a215e4b40c24ea755b82e1aef0069ce76a50e1dc3c",
+    "06_open_source/pai-2026-advance-oss-lecture/participants/tun0001.toml": "2bcd8803d6ec5e5118b2b2cbac85c0b9cc68b1a087e71fd483df59d590d42191",
+    "06_open_source/pai-2026-advance-oss-lecture/participants/webessan.toml": "66df6c74b0b09e24bafa0c47f1cf29e0bbc865feacab71e5f2fd810807a22437",
+    "06_open_source/pai-2026-advance-oss-lecture/participants/wiuryu.toml": "fa3686e16c6246b7a97dd55a67f4c879b5f64240531696ded81689e5fcbc5992",
+    "06_open_source/pai-2026-advance-oss-lecture/participants/yamady0711.toml": "bf8d3f438b9ab8b212bbaa7207af56c3abab84daf28b60bd0fc06626a68cbe7c",
+    "06_open_source/pai-2026-advance-oss-lecture/participants/yamamoriyohei.toml": "b8ed0fcc2fd47aaf4eb7d6aefd8bc81f702dc499355d1c3db4e6cc2d5c8a5633",
+    "06_open_source/pai-2026-advance-oss-lecture/participants/yamamoriyouhei.toml": "60d7e7611a0e1d2b49c4fb9170181f89af34df6d3c75f09862852d7aeb615e8a",
+    "06_open_source/pai-2026-advance-oss-lecture/pyproject.toml": "f6d4f2057056561e76f150a7be6426e61f5173e922d94e5ae6e00554ac42f749",
+    "06_open_source/pai-2026-advance-oss-lecture/src/pai_oss_lecture/__init__.py": "e70137627c715c791ae52e427fe0f6c6d479f68ff156381fe4c552d1c203d5ae",
+    "06_open_source/pai-2026-advance-oss-lecture/src/pai_oss_lecture/cli.py": "9dfd880df6c0c44d1cef749bd27df5231e11c77336bfe14cbe1baaffc3ebb701",
+    "06_open_source/pai-2026-advance-oss-lecture/src/pai_oss_lecture/participants.py": "d7f0d6a5dce649116722ddd840d7f391344b87b8287a6795127569f1b7c52a9c",
+    "06_open_source/pai-2026-advance-oss-lecture/tests/test_participants.py": "fe0da836cc32cdeb3c99c73371c02e826c68167d52dc57eef7814c142fb0487e",
+    "06_open_source/pai-2026-advance-oss-lecture/uv.lock": "20ad4b3a2b7a18034e2dfec7e65088e1732df9ff8e1f5365e031c6f526293782",
+    "README.md": "3e07de187e0a90a717099085a8f368ae5fe893c34754a5b9059a307ebc2b71a3",
+    "SOURCES.md": "c3461ba13f06ed3062f42e2c108ce2904e7c46ed1fe7a81c95323466157b75ca",
+    "shared/ros2_desktop_environment/README.md": "56926d64a1d59e24a0e305edf82fb389e91cd81f73dae5a404f9d385510831f9",
+    "shared/ros2_desktop_environment/docker-ros2-desktop-ai-robot-book-humble/Dockerfile": "20acc9e1925a251d607338e2870dc11ca8866dff241c23446d2928102345c1b6",
+    "shared/ros2_desktop_environment/docker-ros2-desktop-ai-robot-book-humble/README.md": "bdf418e5a66a75bcda9cb9a8d48bcf93e3e0006ee6160d74be38b975f9963b8a",
+    "shared/ros2_desktop_environment/docker-ros2-desktop-ai-robot-book-humble/ai-robot-book.sh": "af4d304a032585c21a940847f19cf3a7b46de2017194d18366c5d79083d3b406",
+    "shared/ros2_desktop_environment/docker-ros2-desktop-ai-robot-book-humble/arb-commit.bash": "ea55a5971afb5a916d77ee68a4a9fe7a7e383f209b374090845521a6899f9f55",
+    "shared/ros2_desktop_environment/docker-ros2-desktop-ai-robot-book-humble/arb-commit.bat": "77379ab08e81cb89da313193ae8b3fd1ebd0bfdfcc3af95ba3570f297ddda40c",
+    "shared/ros2_desktop_environment/docker-ros2-desktop-ai-robot-book-humble/arb-pull.bash": "1942ae500f47c1e05db0284c153498e0065b7f47d8ab9aa86f2d84f1e81565c4",
+    "shared/ros2_desktop_environment/docker-ros2-desktop-ai-robot-book-humble/arb-pull.bat": "aa9c3847bf16359c3bb39caf2a85345237df60a8241375b7deeeed0bedcf1254",
+    "shared/ros2_desktop_environment/docker-ros2-desktop-ai-robot-book-humble/arb-run.bash": "71199362ab1e6e48a271a449c5bcaee42763f39c8010e52653a4307a09ea6113",
+    "shared/ros2_desktop_environment/docker-ros2-desktop-ai-robot-book-humble/arb-run.bat": "ce2e58049eee45b68a4bbef5ccf8071aff1b05382e5348ed8c126976f52bb7e7",
+    "shared/ros2_desktop_environment/docker-ros2-desktop-ai-robot-book-humble/build.bash": "5cf167f485481eca986afc105b0e1577e9b97be76f9261d663019a47f063a451",
+    "shared/ros2_desktop_environment/docker-ros2-desktop-ai-robot-book-humble/entrypoint.sh": "e8e55f65edb2ed6e0d0deb5f24fd44c47ceb27e6f41d38bf1aa07715914e20e5"
+  }
+}

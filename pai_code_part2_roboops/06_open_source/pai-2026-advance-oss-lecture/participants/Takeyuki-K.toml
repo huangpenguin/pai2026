@@ -1,0 +1,4 @@
+name = "Takeyuki Kubo"            # 表示名(必須)
+github = "Takeyuki-K"          # GitHub ユーザー名。ファイル名と一致させる(必須)
+message = "I want to build a humanoid robot!"         # 一言メッセージ。140 文字以内(必須)
+favorite_oss = "ROS 2"        # 好きな OSS(任意)

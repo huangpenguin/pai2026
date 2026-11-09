@@ -1,0 +1,4 @@
+name = "IKKO FUJII"            # 表示名(必須)
+github = "fujihoge"          # GitHub ユーザー名。ファイル名と一致させる(必須)
+message = "Hello, OSS!"         # 一言メッセージ。140 文字以内(必須)
+favorite_oss = "Ubuntu"        # 好きな OSS(任意)

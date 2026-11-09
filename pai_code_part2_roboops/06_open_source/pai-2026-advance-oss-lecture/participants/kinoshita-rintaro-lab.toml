@@ -1,0 +1,4 @@
+name = "Rintaro Kinoshita"              # 表示名(必須)
+github = "kinoshita-rintaro-lab"        # GitHub ユーザー名。ファイル名と一致させる(必須)
+message = "OSS!! OSS!!"                 # 一言メッセージ。140 文字以内(必須)
+favorite_oss = "MuJoCo"                 # 好きな OSS(任意)

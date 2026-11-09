@@ -1,0 +1,3 @@
+# Course source snapshot: preserve upstream LFS pointers as reference text.
+# These fixtures were archived without their upstream LFS objects.
+* -filter -diff -merge -text
